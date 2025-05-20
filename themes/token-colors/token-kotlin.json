@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Kotlin 关键字",
+    "scope": "keyword.control.kotlin, storage.type.kotlin, storage.modifier.kotlin, keyword.other.kotlin",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "Kotlin 类型和类名",
+    "scope": "entity.name.type.class.kotlin, entity.name.type.interface.kotlin, entity.name.type.enum.kotlin, entity.name.type.kotlin, storage.type.kotlin",
+    "settings": {
+      "foreground": "#00b1b1"
+    }
+  },
+  {
+    "name": "Kotlin 函数调用",
+    "scope": "entity.name.function.kotlin, meta.function-call.kotlin, support.function.kotlin",
+    "settings": {
+      "foreground": "#ffbac2"
+    }
+  },
+  {
+    "name": "Kotlin 字符串",
+    "scope": "string.quoted.double.kotlin, string.quoted.triple.kotlin, string.kotlin",
+    "settings": {
+      "foreground": "#032F62"
+    }
+  },
+  {
+    "name": "Kotlin 变量和属性",
+    "scope": "variable.other.kotlin, variable.language.kotlin, variable.other.member.kotlin, variable.other.property.kotlin",
+    "settings": {
+      "foreground": "#89B482"
+    }
+  },
+  {
+    "name": "Kotlin 常量",
+    "scope": "constant.kotlin, variable.other.constant.kotlin",
+    "settings": {
+      "foreground": "#005CC5"
+    }
+  },
+  {
+    "name": "Kotlin 注解",
+    "scope": "meta.annotation.kotlin, storage.type.annotation.kotlin, punctuation.definition.annotation.kotlin",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "Kotlin 运算符",
+    "scope": "keyword.operator.kotlin",
+    "settings": {
+      "foreground": "#B31D28"
+    }
+  }
+]

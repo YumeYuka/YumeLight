@@ -1,9 +1,13 @@
 {
-  "name": "Yume",
-  "displayName": "Yume Light",
+  "name": "YumeLight",
+  "displayName": "YumeLight",
   "icon": "images/YumeYuka.png",
   "description": "A bright-colored theme.",
   "publisher": "YumeYuka",
+  "scripts": {
+    "dev": "node themes/merge-theme.js",
+    "build": " node themes/merge-theme.js & vsce package "
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/YumeYuka/YumeLight"
@@ -16,7 +20,7 @@
     "Themes"
   ],
   "keywords": [
-    "Yume",  
+    "Yume",
     "light",
     "theme"
   ],

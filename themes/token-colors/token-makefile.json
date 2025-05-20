@@ -1,0 +1,14 @@
+[
+  {
+    "scope": "entity.name.function.target.makefile, variable.other.makefile",
+    "settings": {
+      "foreground": "#EBC1A8"
+    }
+  },
+  {
+    "scope": "meta.scope.prerequisites.makefile",
+    "settings": {
+      "foreground": "#A7BEC6"
+    }
+  }
+]

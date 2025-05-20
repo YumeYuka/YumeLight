@@ -1,0 +1,37 @@
+[
+  {
+    "name": "CMake 命令和实体",
+    "scope": "entity.name.function.cmake, keyword.control.cmake",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "CMake 变量和字符串",
+    "scope": "variable.parameter.cmake, string.unquoted.cmake",
+    "settings": {
+      "foreground": "#005CC5"
+    }
+  },
+  {
+    "name": "CMake 内部变量/属性",
+    "scope": "variable.other.property.cmake",
+    "settings": {
+      "foreground": "#89B482"
+    }
+  },
+  {
+    "name": "CMake 源文件和字符串",
+    "scope": "entity.source.cmake, string.source.cmake",
+    "settings": {
+      "foreground": "#A7BEC6"
+    }
+  },
+  {
+    "name": "CMake 存储类型",
+    "scope": "storage.source.cmake",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  }
+]

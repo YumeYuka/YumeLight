@@ -1,0 +1,50 @@
+[
+  {
+    "scope": "constant.character.escape, punctuation.quasi.element, punctuation.definition.template-expression, punctuation.section.embedded, storage.type.format, constant.other.placeholder, variable.interpolation",
+    "settings": {
+      "foreground": "#B1BA81"
+    }
+  },
+  {
+    "scope": "entity.name.label, constant.other.label",
+    "settings": {
+      "foreground": "#AAB8AB"
+    }
+  },
+  {
+    "scope": "support.module, support.node, support.other.module, support.type.object.module, entity.name.type.module, entity.name.type.class.module, keyword.control.module",
+    "settings": {
+      "foreground": "#89B482"
+    }
+  },
+  {
+    "scope": "ref.matchtext",
+    "settings": {
+      "foreground": "#FFFFFF"
+    }
+  },
+  {
+    "scope": "token.info-token",
+    "settings": {
+      "foreground": "#6796E6"
+    }
+  },
+  {
+    "scope": "token.warn-token",
+    "settings": {
+      "foreground": "#CD9731"
+    }
+  },
+  {
+    "scope": "token.error-token",
+    "settings": {
+      "foreground": "#F44747"
+    }
+  },
+  {
+    "scope": "token.debug-token",
+    "settings": {
+      "foreground": "#B267E6"
+    }
+  }
+]

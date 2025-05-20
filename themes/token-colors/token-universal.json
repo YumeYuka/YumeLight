@@ -1,0 +1,102 @@
+[
+  {
+    "name": "控制结构和关键字",
+    "scope": "keyword.control, storage.type, storage.modifier, keyword.operator.new, keyword.operator.delete, keyword.other",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "函数调用",
+    "scope": "entity.name.function, support.function",
+    "settings": {
+      "foreground": "#ffbac2"
+    }
+  },
+  {
+    "name": "函数定义和参数",
+    "scope": "meta.function.definition, meta.function.parameters, meta.function-call",
+    "settings": {
+      "foreground": "#D4BE98"
+    }
+  },
+  {
+    "name": "类型和命名空间",
+    "scope": "entity.name.type, entity.name.namespace, entity.name.class, entity.name.interface, storage.type.class, storage.type.interface, support.class",
+    "settings": {
+      "foreground": "#00b1b1"
+    }
+  },
+  {
+    "name": "变量和成员",
+    "scope": "variable.other.member, variable.other.property, variable.other.object.property",
+    "settings": {
+      "foreground": "#89B482"
+    }
+  },
+  {
+    "name": "基本变量",
+    "scope": "variable.other, variable.language",
+    "settings": {
+      "foreground": "#005CC5"
+    }
+  },
+  {
+    "name": "常量和枚举成员",
+    "scope": "constant, variable.other.constant, variable.other.enummember",
+    "settings": {
+      "foreground": "#005CC5"
+    }
+  },
+  {
+    "name": "字符串",
+    "scope": "string",
+    "settings": {
+      "foreground": "#032F62"
+    }
+  },
+  {
+    "name": "数字",
+    "scope": "constant.numeric",
+    "settings": {
+      "foreground": "#A7BEC6"
+    }
+  },
+  {
+    "name": "基本操作符",
+    "scope": "keyword.operator",
+    "settings": {
+      "foreground": "#B31D28"
+    }
+  },
+  {
+    "name": "标点符号",
+    "scope": "punctuation",
+    "settings": {
+      "foreground": "#928374"
+    }
+  },
+  {
+    "name": "特殊标点符号",
+    "scope": "punctuation.separator.dot-access, punctuation.separator.pointer-access, punctuation.section",
+    "settings": {
+      "foreground": "#CB9B8F"
+    }
+  },
+  {
+    "name": "注释",
+    "scope": "comment",
+    "settings": {
+      "foreground": "#928374",
+      "fontStyle": "italic"
+    }
+  },
+  {
+    "name": "文档标记",
+    "scope": "comment.block.documentation, keyword.other.documentation",
+    "settings": {
+      "foreground": "#A7BEC6",
+      "fontStyle": "italic"
+    }
+  }
+]

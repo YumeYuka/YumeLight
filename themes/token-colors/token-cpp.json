@@ -1,0 +1,143 @@
+[
+  {
+    "name": "C/C++ 函数调用、参数、数组括号",
+    "scope": "meta.function-call.c, storage.modifier.array.bracket.square.c, meta.function.definition.parameters.c, meta.function-call.cpp, storage.modifier.array.bracket.square.cpp, meta.function.definition.parameters.cpp",
+    "settings": {
+      "foreground": "#D4BE98"
+    }
+  },
+  {
+    "name": "C/C++ 点访问符、行连续符",
+    "scope": "punctuation.separator.dot-access.c, constant.character.escape.line-continuation.c, punctuation.separator.dot-access.cpp, constant.character.escape.line-continuation.cpp",
+    "settings": {
+      "foreground": "#928374"
+    }
+  },
+  {
+    "name": "C 预处理指令",
+    "scope": "keyword.control.directive.include.c, punctuation.definition.directive.c, keyword.control.directive.pragma.c, keyword.control.directive.line.c, keyword.control.directive.define.c, keyword.control.directive.conditional.c, keyword.control.directive.diagnostic.error.c, keyword.control.directive.undef.c, keyword.control.directive.conditional.ifdef.c, keyword.control.directive.endif.c, keyword.control.directive.conditional.ifndef.c, keyword.control.directive.conditional.if.c, keyword.control.directive.else.c",
+    "settings": {
+      "foreground": "#CB7074"
+    }
+  },
+  {
+    "name": "C 指针访问符",
+    "scope": "punctuation.separator.pointer-access.c",
+    "settings": {
+      "foreground": "#CB9B8F"
+    }
+  },
+  {
+    "name": "C/C++ 成员变量",
+    "scope": "variable.other.member.c, variable.other.member.cpp",
+    "settings": {
+      "foreground": "#89B482"
+    }
+  },
+  {
+    "name": "C++ 函数定义",
+    "scope": "meta.function.definition.cpp",
+    "settings": {}
+  },
+  {
+    "name": "C++ include 路径字符串",
+    "scope": "string.quoted.other.lt-gt.include.cpp",
+    "settings": {
+      "foreground": "#032F62"
+    }
+  },
+  {
+    "name": "C++ 预处理指令",
+    "scope": "keyword.control.directive.include.cpp, keyword.control.directive.pragma.cpp, keyword.control.directive.line.cpp, keyword.control.directive.define.cpp, keyword.control.directive.conditional.cpp, keyword.control.directive.diagnostic.error.cpp, keyword.control.directive.undef.cpp, keyword.control.directive.conditional.ifdef.cpp, keyword.control.directive.endif.cpp, keyword.control.directive.conditional.ifndef.cpp, keyword.control.directive.conditional.if.cpp, keyword.control.directive.else.cpp",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "C++ 预处理指令定义符",
+    "scope": "punctuation.definition.directive.cpp",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "C++ 命名空间主体",
+    "scope": "meta.body.namespace.cpp",
+    "settings": {}
+  },
+  {
+    "name": "C++ 结构体和枚举类型名",
+    "scope": "entity.name.type.struct.cpp, storage.type.enum.cpp",
+    "settings": {
+      "foreground": "#00b1b1"
+    }
+  },
+  {
+    "name": "C++ 枚举类型名",
+    "scope": "entity.name.type.enum.cpp",
+    "settings": {
+      "foreground": "#00b1b1"
+    }
+  },
+  {
+    "name": "C++ 枚举成员",
+    "scope": "variable.other.enummember.cpp",
+    "settings": {
+      "foreground": "#005CC5"
+    }
+  },
+  {
+    "name": "C++ 结构体主体",
+    "scope": "meta.body.struct.cpp",
+    "settings": {}
+  },
+  {
+    "name": "C++ 关键字 (using, new, typedef, this, 控制流)",
+    "scope": "keyword.other.using.directive.cpp, keyword.operator.new.cpp, keyword.other.typedef.cpp, variable.language.this.cpp, keyword.control.if.cpp, keyword.control.else.cpp, keyword.control.while.cpp, keyword.control.for.cpp, keyword.control.switch.cpp, keyword.control.return.cpp, keyword.control.break.cpp, keyword.control.case.cpp, keyword.control.default.cpp, keyword.control.goto.cpp, keyword.control.do.cpp",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "C++ 存储类型和修饰符",
+    "scope": "storage.type.namespace.directive.cpp, storage.type.namespace.definition.cpp, storage.type.struct.cpp, storage.modifier.specifier.extern.cpp, storage.type.template.cpp, storage.type.built-in.primitive.cpp, storage.type.template.argument.int.cpp, storage.type.class.cpp, storage.type.template.argument.typename.cpp, storage.modifier.access.control.public.cpp, storage.modifier.specifier.functional.pre-parameters.constexpr.cpp",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "C++ 指针访问符和模板尖括号",
+    "scope": "punctuation.separator.pointer-access.cpp, punctuation.section.angle-brackets.begin.template.call.cpp, punctuation.section.angle-brackets.end.template.call.cpp",
+    "settings": {
+      "foreground": "#CB9B8F"
+    }
+  },
+  {
+    "name": "C++ 操作符 (赋值, 算术, 比较)",
+    "scope": "keyword.operator.assignment.cpp, keyword.operator.arithmetic.cpp, keyword.operator.comparison.cpp",
+    "settings": {
+      "foreground": "#B31D28"
+    }
+  },
+  {
+    "name": "C++ 函数调用名",
+    "scope": "entity.name.function.call.cpp",
+    "settings": {
+      "foreground": "#ffbac2"
+    }
+  },
+  {
+    "name": "C++ 类名和命名空间名",
+    "scope": "entity.name.type.class.cpp, entity.name.namespace.cpp",
+    "settings": {
+      "foreground": "#00b1b1"
+    }
+  },
+  {
+    "name": "C++ 位移操作符",
+    "scope": "keyword.operator.bitwise.shift.cpp",
+    "settings": {
+      "foreground": "#B31D28"
+    }
+  }
+]

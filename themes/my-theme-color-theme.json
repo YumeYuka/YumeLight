@@ -417,7 +417,246 @@
   },
   "tokenColors": [
     {
-      "scope": "constant.character.escape, punctuation.quasi.element, punctuation.definition.template-expression, punctuation.section.embedded, storage.type.format, constant.other.placeholder, constant.other.placeholder, variable.interpolation",
+      "name": "CMake 命令和实体",
+      "scope": "entity.name.function.cmake, keyword.control.cmake",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "CMake 变量和字符串",
+      "scope": "variable.parameter.cmake, string.unquoted.cmake",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "CMake 内部变量/属性",
+      "scope": "variable.other.property.cmake",
+      "settings": {
+        "foreground": "#89B482"
+      }
+    },
+    {
+      "name": "CMake 源文件和字符串",
+      "scope": "entity.source.cmake, string.source.cmake",
+      "settings": {
+        "foreground": "#A7BEC6"
+      }
+    },
+    {
+      "name": "CMake 存储类型",
+      "scope": "storage.source.cmake",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "scope": "comment, string.comment, punctuation.definition.comment",
+      "settings": {
+        "foreground": "#928374",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C/C++ 函数调用、参数、数组括号",
+      "scope": "meta.function-call.c, storage.modifier.array.bracket.square.c, meta.function.definition.parameters.c, meta.function-call.cpp, storage.modifier.array.bracket.square.cpp, meta.function.definition.parameters.cpp",
+      "settings": {
+        "foreground": "#D4BE98"
+      }
+    },
+    {
+      "name": "C/C++ 点访问符、行连续符",
+      "scope": "punctuation.separator.dot-access.c, constant.character.escape.line-continuation.c, punctuation.separator.dot-access.cpp, constant.character.escape.line-continuation.cpp",
+      "settings": {
+        "foreground": "#928374"
+      }
+    },
+    {
+      "name": "C 预处理指令",
+      "scope": "keyword.control.directive.include.c, punctuation.definition.directive.c, keyword.control.directive.pragma.c, keyword.control.directive.line.c, keyword.control.directive.define.c, keyword.control.directive.conditional.c, keyword.control.directive.diagnostic.error.c, keyword.control.directive.undef.c, keyword.control.directive.conditional.ifdef.c, keyword.control.directive.endif.c, keyword.control.directive.conditional.ifndef.c, keyword.control.directive.conditional.if.c, keyword.control.directive.else.c",
+      "settings": {
+        "foreground": "#CB7074"
+      }
+    },
+    {
+      "name": "C 指针访问符",
+      "scope": "punctuation.separator.pointer-access.c",
+      "settings": {
+        "foreground": "#CB9B8F"
+      }
+    },
+    {
+      "name": "C/C++ 成员变量",
+      "scope": "variable.other.member.c, variable.other.member.cpp",
+      "settings": {
+        "foreground": "#89B482"
+      }
+    },
+    {
+      "name": "C++ 函数定义",
+      "scope": "meta.function.definition.cpp",
+      "settings": {}
+    },
+    {
+      "name": "C++ include 路径字符串",
+      "scope": "string.quoted.other.lt-gt.include.cpp",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "C++ 预处理指令",
+      "scope": "keyword.control.directive.include.cpp, keyword.control.directive.pragma.cpp, keyword.control.directive.line.cpp, keyword.control.directive.define.cpp, keyword.control.directive.conditional.cpp, keyword.control.directive.diagnostic.error.cpp, keyword.control.directive.undef.cpp, keyword.control.directive.conditional.ifdef.cpp, keyword.control.directive.endif.cpp, keyword.control.directive.conditional.ifndef.cpp, keyword.control.directive.conditional.if.cpp, keyword.control.directive.else.cpp",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "C++ 预处理指令定义符",
+      "scope": "punctuation.definition.directive.cpp",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "C++ 命名空间主体",
+      "scope": "meta.body.namespace.cpp",
+      "settings": {}
+    },
+    {
+      "name": "C++ 结构体和枚举类型名",
+      "scope": "entity.name.type.struct.cpp, storage.type.enum.cpp",
+      "settings": {
+        "foreground": "#00b1b1"
+      }
+    },
+    {
+      "name": "C++ 枚举类型名",
+      "scope": "entity.name.type.enum.cpp",
+      "settings": {
+        "foreground": "#00b1b1"
+      }
+    },
+    {
+      "name": "C++ 枚举成员",
+      "scope": "variable.other.enummember.cpp",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "C++ 结构体主体",
+      "scope": "meta.body.struct.cpp",
+      "settings": {}
+    },
+    {
+      "name": "C++ 关键字 (using, new, typedef, this, 控制流)",
+      "scope": "keyword.other.using.directive.cpp, keyword.operator.new.cpp, keyword.other.typedef.cpp, variable.language.this.cpp, keyword.control.if.cpp, keyword.control.else.cpp, keyword.control.while.cpp, keyword.control.for.cpp, keyword.control.switch.cpp, keyword.control.return.cpp, keyword.control.break.cpp, keyword.control.case.cpp, keyword.control.default.cpp, keyword.control.goto.cpp, keyword.control.do.cpp",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "C++ 存储类型和修饰符",
+      "scope": "storage.type.namespace.directive.cpp, storage.type.namespace.definition.cpp, storage.type.struct.cpp, storage.modifier.specifier.extern.cpp, storage.type.template.cpp, storage.type.built-in.primitive.cpp, storage.type.template.argument.int.cpp, storage.type.class.cpp, storage.type.template.argument.typename.cpp, storage.modifier.access.control.public.cpp, storage.modifier.specifier.functional.pre-parameters.constexpr.cpp",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "C++ 指针访问符和模板尖括号",
+      "scope": "punctuation.separator.pointer-access.cpp, punctuation.section.angle-brackets.begin.template.call.cpp, punctuation.section.angle-brackets.end.template.call.cpp",
+      "settings": {
+        "foreground": "#CB9B8F"
+      }
+    },
+    {
+      "name": "C++ 操作符 (赋值, 算术, 比较)",
+      "scope": "keyword.operator.assignment.cpp, keyword.operator.arithmetic.cpp, keyword.operator.comparison.cpp",
+      "settings": {
+        "foreground": "#B31D28"
+      }
+    },
+    {
+      "name": "C++ 函数调用名",
+      "scope": "entity.name.function.call.cpp",
+      "settings": {
+        "foreground": "#ffbac2"
+      }
+    },
+    {
+      "name": "C++ 类名和命名空间名",
+      "scope": "entity.name.type.class.cpp, entity.name.namespace.cpp",
+      "settings": {
+        "foreground": "#00b1b1"
+      }
+    },
+    {
+      "name": "C++ 位移操作符",
+      "scope": "keyword.operator.bitwise.shift.cpp",
+      "settings": {
+        "foreground": "#B31D28"
+      }
+    },
+    {
+      "name": "C# 特定关键字",
+      "scope": "keyword.control.cs, storage.type.cs, storage.modifier.cs, keyword.other.cs",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "C# 类型和命名空间",
+      "scope": "entity.name.type.class.cs, entity.name.type.interface.cs, entity.name.type.enum.cs, entity.name.type.struct.cs, entity.name.namespace.cs, storage.type.cs",
+      "settings": {
+        "foreground": "#00b1b1"
+      }
+    },
+    {
+      "name": "C# 方法调用",
+      "scope": "entity.name.function.cs, meta.method-call.cs",
+      "settings": {
+        "foreground": "#ffbac2"
+      }
+    },
+    {
+      "name": "C# 预处理指令",
+      "scope": "keyword.control.directive.cs, punctuation.definition.directive.cs",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "C# 属性",
+      "scope": "entity.name.property.cs",
+      "settings": {
+        "foreground": "#89B482"
+      }
+    },
+    {
+      "name": "C# 特性 (Attributes)",
+      "scope": "storage.type.attribute.cs, meta.attribute.cs",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "C# 字符串插值",
+      "scope": "string.interpolated.cs, punctuation.definition.interpolation.begin.cs, punctuation.definition.interpolation.end.cs",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "C# 字符串插值中的表达式",
+      "scope": "meta.interpolation.cs",
+      "settings": {
+        "foreground": "#D4BE98"
+      }
+    },
+    {
+      "scope": "constant.character.escape, punctuation.quasi.element, punctuation.definition.template-expression, punctuation.section.embedded, storage.type.format, constant.other.placeholder, variable.interpolation",
       "settings": {
         "foreground": "#B1BA81"
       }
@@ -432,6 +671,279 @@
       "scope": "support.module, support.node, support.other.module, support.type.object.module, entity.name.type.module, entity.name.type.class.module, keyword.control.module",
       "settings": {
         "foreground": "#89B482"
+      }
+    },
+    {
+      "scope": "ref.matchtext",
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": "token.info-token",
+      "settings": {
+        "foreground": "#6796E6"
+      }
+    },
+    {
+      "scope": "token.warn-token",
+      "settings": {
+        "foreground": "#CD9731"
+      }
+    },
+    {
+      "scope": "token.error-token",
+      "settings": {
+        "foreground": "#F44747"
+      }
+    },
+    {
+      "scope": "token.debug-token",
+      "settings": {
+        "foreground": "#B267E6"
+      }
+    },
+    {
+      "name": "Go 特定关键字",
+      "scope": "keyword.control.go, storage.type.go, keyword.function.go, keyword.package.go, keyword.import.go, keyword.interface.go, keyword.struct.go, keyword.map.go, keyword.channel.go, keyword.var.go, keyword.const.go",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "Go 类型",
+      "scope": "entity.name.type.go, storage.type.built-in.go",
+      "settings": {
+        "foreground": "#00b1b1"
+      }
+    },
+    {
+      "name": "Go 函数调用",
+      "scope": "entity.name.function.go, support.function.go",
+      "settings": {
+        "foreground": "#ffbac2"
+      }
+    },
+    {
+      "name": "Go 接收器类型",
+      "scope": "meta.function.receiver.go storage.type.source.go",
+      "settings": {
+        "foreground": "#00b1b1"
+      }
+    },
+    {
+      "name": "Go 结构体成员",
+      "scope": "variable.other.member.go",
+      "settings": {
+        "foreground": "#89B482"
+      }
+    },
+    {
+      "name": "Go 标签",
+      "scope": "entity.name.label.go",
+      "settings": {
+        "foreground": "#AAB8AB"
+      }
+    },
+    {
+      "name": "Java 特定关键字",
+      "scope": "keyword.control.java, storage.type.java, storage.modifier.java, storage.type.primitive.java, storage.type.generic.java",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "Java 类和接口",
+      "scope": "entity.name.type.class.java, entity.name.type.interface.java, entity.other.inherited-class.java, storage.type.java",
+      "settings": {
+        "foreground": "#00b1b1"
+      }
+    },
+    {
+      "name": "Java 注解",
+      "scope": "punctuation.definition.annotation.java, storage.type.annotation.java, meta.declaration.annotation.java",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "Java 方法调用",
+      "scope": "meta.method-call.java, meta.method.java",
+      "settings": {
+        "foreground": "#ffbac2"
+      }
+    },
+    {
+      "name": "Java 泛型参数",
+      "scope": "storage.type.generic.wildcard.java",
+      "settings": {
+        "foreground": "#B1BA81"
+      }
+    },
+    {
+      "name": "Java 包声明",
+      "scope": "storage.modifier.package.java, storage.modifier.import.java",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "Java 异常处理",
+      "scope": "storage.type.java, entity.name.type.class.java",
+      "settings": {
+        "foreground": "#CB7074"
+      }
+    },
+    {
+      "name": "JS/TS 关键字",
+      "scope": "keyword.control.flow.js, keyword.control.flow.ts, storage.type.js, storage.type.ts, storage.type.function.js, storage.type.function.ts, storage.type.class.js, storage.type.class.ts, storage.modifier.js, storage.modifier.ts, keyword.other.js, keyword.other.ts",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "JS/TS 类型/接口/枚举",
+      "scope": "entity.name.type.js, entity.name.type.ts, entity.name.type.interface.ts, entity.name.type.enum.ts, storage.type.interface.ts, storage.type.enum.ts, support.type.primitive.ts, support.type.primitive.js",
+      "settings": {
+        "foreground": "#00b1b1"
+      }
+    },
+    {
+      "name": "JS/TS 装饰器",
+      "scope": "punctuation.decorator.js, punctuation.decorator.ts, meta.decorator.js, meta.decorator.ts",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "JS/TS 泛型参数",
+      "scope": "meta.type.parameters.ts, meta.type.parameters.js, meta.type.annotation.ts, meta.type.annotation.js",
+      "settings": {
+        "foreground": "#B1BA81"
+      }
+    },
+    {
+      "name": "JS/TS 函数调用",
+      "scope": "entity.name.function.js, entity.name.function.ts, meta.function-call.js, meta.function-call.ts, support.function.js, support.function.ts",
+      "settings": {
+        "foreground": "#ffbac2"
+      }
+    },
+    {
+      "name": "JS/TS 对象属性",
+      "scope": "meta.object-literal.key.js, meta.object-literal.key.ts, variable.other.property.js, variable.other.property.ts",
+      "settings": {
+        "foreground": "#89B482"
+      }
+    },
+    {
+      "name": "JS/TS 变量",
+      "scope": "variable.other.js, variable.other.ts, variable.language.js, variable.language.ts",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "JS/TS 常量",
+      "scope": "variable.other.constant.js, variable.other.constant.ts, constant.js, constant.ts",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "JS/TS 字符串/模板字符串",
+      "scope": "string.js, string.ts, string.template.js, string.template.ts",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "JS/TS 模板字符串内表达式",
+      "scope": "meta.template.expression.js, meta.template.expression.ts",
+      "settings": {
+        "foreground": "#D4BE98"
+      }
+    },
+    {
+      "name": "JS/TS 箭头函数",
+      "scope": "storage.type.function.arrow.js, storage.type.function.arrow.ts",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "JS/TS 模块导入导出",
+      "scope": "keyword.control.import.js, keyword.control.import.ts, keyword.control.export.js, keyword.control.export.ts, keyword.control.from.js, keyword.control.from.ts",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "Kotlin 关键字",
+      "scope": "keyword.control.kotlin, storage.type.kotlin, storage.modifier.kotlin, keyword.other.kotlin",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "Kotlin 类型和类名",
+      "scope": "entity.name.type.class.kotlin, entity.name.type.interface.kotlin, entity.name.type.enum.kotlin, entity.name.type.kotlin, storage.type.kotlin",
+      "settings": {
+        "foreground": "#00b1b1"
+      }
+    },
+    {
+      "name": "Kotlin 函数调用",
+      "scope": "entity.name.function.kotlin, meta.function-call.kotlin, support.function.kotlin",
+      "settings": {
+        "foreground": "#ffbac2"
+      }
+    },
+    {
+      "name": "Kotlin 字符串",
+      "scope": "string.quoted.double.kotlin, string.quoted.triple.kotlin, string.kotlin",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "Kotlin 变量和属性",
+      "scope": "variable.other.kotlin, variable.language.kotlin, variable.other.member.kotlin, variable.other.property.kotlin",
+      "settings": {
+        "foreground": "#89B482"
+      }
+    },
+    {
+      "name": "Kotlin 常量",
+      "scope": "constant.kotlin, variable.other.constant.kotlin",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "Kotlin 注解",
+      "scope": "meta.annotation.kotlin, storage.type.annotation.kotlin, punctuation.definition.annotation.kotlin",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "Kotlin 运算符",
+      "scope": "keyword.operator.kotlin",
+      "settings": {
+        "foreground": "#B31D28"
+      }
+    },
+    {
+      "scope": "entity.name.function.target.makefile, variable.other.makefile",
+      "settings": {
+        "foreground": "#EBC1A8"
+      }
+    },
+    {
+      "scope": "meta.scope.prerequisites.makefile",
+      "settings": {
+        "foreground": "#A7BEC6"
       }
     },
     {
@@ -533,13 +1045,7 @@
       }
     },
     {
-      "scope": "punctuation.definition.markdown, punctuation.definition.raw.markdown",
-      "settings": {
-        "foreground": "#EBC1A8"
-      }
-    },
-    {
-      "scope": "fenced_code.block.language",
+      "scope": "punctuation.definition.markdown, punctuation.definition.raw.markdown, fenced_code.block.language",
       "settings": {
         "foreground": "#EBC1A8"
       }
@@ -557,238 +1063,344 @@
       }
     },
     {
-      "scope": "meta.function-call.c, storage.modifier.array.bracket.square.c, meta.function.definition.parameters.c",
-      "settings": {
-        "foreground": "#D4BE98"
-      }
-    },
-    {
-      "scope": "punctuation.separator.dot-access.c, constant.character.escape.line-continuation.c",
-      "settings": {
-        "foreground": "#928374"
-      }
-    },
-    {
-      "scope": "keyword.control.directive.include.c, punctuation.definition.directive.c, keyword.control.directive.pragma.c, keyword.control.directive.line.c, keyword.control.directive.define.c, keyword.control.directive.conditional.c, keyword.control.directive.diagnostic.error.c, keyword.control.directive.undef.c, keyword.control.directive.conditional.ifdef.c, keyword.control.directive.endif.c, keyword.control.directive.conditional.ifndef.c, keyword.control.directive.conditional.if.c, keyword.control.directive.else.c",
-      "settings": {
-        "foreground": "#CB7074"
-      }
-    },
-    {
-      "scope": "punctuation.separator.pointer-access.c",
-      "settings": {
-        "foreground": "#CB9B8F"
-      }
-    },
-    {
-      "scope": "variable.other.member.c",
-      "settings": {
-        "foreground": "#89B482"
-      }
-    },
-    {
-      "scope": "meta.function-call.cpp, storage.modifier.array.bracket.square.cpp, meta.function.definition.parameters.cpp",
-      "settings": {
-        "foreground": "#D4BE98"
-      }
-    },
-    {
-      "scope": "meta.function.definition.cpp",
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "scope": "string.quoted.other.lt-gt.include.cpp",
-      "settings": {
-        "foreground": "#032F62"
-      }
-    },
-    {
-      "scope": "punctuation.separator.dot-access.cpp, constant.character.escape.line-continuation.cpp",
-      "settings": {
-        "foreground": "#928374"
-      }
-    },
-    {
-      "scope": "keyword.control.directive.include.cpp, punctuation.definition.directive.cpp, keyword.control.directive.pragma.cpp, keyword.control.directive.line.cpp, keyword.control.directive.define.cpp, keyword.control.directive.conditional.cpp, keyword.control.directive.diagnostic.error.cpp, keyword.control.directive.undef.cpp, keyword.control.directive.conditional.ifdef.cpp, keyword.control.directive.endif.cpp, keyword.control.directive.conditional.ifndef.cpp, keyword.control.directive.conditional.if.cpp, keyword.control.directive.else.cpp",
-      "settings": {
-        "foreground": "#6F42C1"
-      }
-    },
-    {
-      "scope": "entity.name.type.struct.cpp",
-      "settings": {
-        "foreground": "#FF0000"
-      }
-    },
-    {
-      "scope": "storage.type.enum.cpp",
-      "settings": {
-        "foreground": "#FF0000"
-      }
-    },
-    {
-      "scope": "entity.name.type.enum.cpp",
-      "settings": {
-        "foreground": "#008080"
-      }
-    },
-    {
-      "scope": "variable.other.enummember.cpp",
-      "settings": {
-        "foreground": "#005CC5"
-      }
-    },
-     {
-      "scope": "meta.body.struct.cpp",
-      "settings": {
-        "foreground": "#660E7A"
-      }
-    },
-    {
-      "scope": "keyword.other.using.directive.cpp, keyword.operator.new.cpp,storage.type.namespace.directive.cpp, storage.type.namespace.definition.cpp, keyword.other.typedef.cpp ,storage.type.struct.cpp,storage.modifier.specifier.extern.cpp, storage.type.template.cpp,storage.type.built-in.primitive.cpp, storage.type.template.argument.int.cpp, storage.type.class.cpp",
-      "settings": {
-        "foreground": "#D73A49"
-      }
-    },
-    {
-      "scope": "punctuation.separator.pointer-access.cpp, punctuation.section.angle-brackets.begin.template.call.cpp, punctuation.section.angle-brackets.end.template.call.cpp, storage.type.template.argument.typename.cpp, storage.type.modifier.access.control.public.cpp",
-      "settings": {
-        "foreground": "#D73A49"
-      }
-    },
-    {
-      "scope": "keyword.operator.assignment.cpp, keyword.operator.arithmetic.cpp , keyword.operator.comparison.cpp",
-      "settings": {
-        "foreground": "#B31D28"
-      }
-    },
-    {
-      "scope": "entity.name.function.call.cpp",
+      "name": "PowerShell 函数和属性",
+      "scope": "entity.name.function.powershell, support.function.attribute.powershell, support.function.powershell",
       "settings": {
         "foreground": "#ffbac2"
       }
     },
     {
-      "scope": "variable.language.this.cpp ,keyword.control.if.cpp, keyword.control.else.cpp, keyword.control.while.cpp, keyword.control.for.cpp, keyword.control.switch.cpp, keyword.control.return.cpp, keyword.control.break.cpp, keyword.control.case.cpp, keyword.control.default.cpp, keyword.control.goto.cpp, keyword.control.do.cpp, storage.modifier.specifier.functional.pre-parameters.constexpr.cpp",
+      "name": "PowerShell 字符串",
+      "scope": "string.quoted.single.powershell, string.quoted.double.powershell, punctuation.definition.string.begin.powershell, punctuation.definition.string.end.powershell, string.quoted.double.heredoc.powershell",
       "settings": {
-        "foreground": "#D73A49"
+        "foreground": "#032F62"
       }
     },
     {
-      "scope": "meta.body.namespace.cpp",
-      "settings": {
-        "foreground": "#6F42C1"
-      }
-    },
-    {
-      "scope": "entity.name.type.class.cpp, entity.name.namespace.cpp , keyword.operator.bitwise.shift.cpp",
-      "settings": {
-        "foreground": "#00b1b1"
-      }
-    },
-    {
-      "scope": "variable.other.member.cpp",
-      "settings": {
-        "foreground": "#89B482"
-      }
-    },
-    {
+      "name": "PowerShell 变量定义符",
       "scope": "punctuation.definition.variable.powershell",
       "settings": {
         "foreground": "#928374"
       }
     },
     {
-      "scope": "entity.name.function.powershell, support.function.attribute.powershell, support.function.powershell",
-      "settings": {
-        "foreground": "#EBC1A8"
-      }
-    },
-    {
-      "scope": "string.quoted.single.powershell, string.quoted.double.powershell, punctuation.definition.string.begin.powershell, punctuation.definition.string.end.powershell, string.quoted.double.heredoc.powershell",
-      "settings": {
-        "foreground": "#A7BEC6"
-      }
-    },
-    {
+      "name": "PowerShell 成员变量",
       "scope": "variable.other.member.powershell",
       "settings": {
         "foreground": "#89B482"
       }
     },
     {
-      "scope": "entity.name.function.target.makefile",
+      "name": "PowerShell 命令和别名",
+      "scope": "support.function.powershell",
       "settings": {
-        "foreground": "#CB9B8F"
+        "foreground": "#D4BE98"
       }
     },
     {
-      "scope": "variable.other.makefile",
+      "name": "PowerShell 参数",
+      "scope": "variable.parameter.powershell",
       "settings": {
-        "foreground": "#EBC1A8"
+        "foreground": "#005CC5"
       }
     },
     {
-      "scope": "meta.scope.prerequisites.makefile",
+      "name": "PowerShell 运算符",
+      "scope": "keyword.operator.comparison.powershell, keyword.operator.logical.powershell, keyword.operator.assignment.powershell",
       "settings": {
-        "foreground": "#A7BEC6"
+        "foreground": "#B31D28"
       }
     },
     {
-      "scope": "string.source.cmake",
+      "name": "PowerShell 类型",
+      "scope": "support.type.powershell, entity.name.type.powershell",
       "settings": {
-        "foreground": "#A7BEC6"
+        "foreground": "#00b1b1"
       }
     },
     {
-      "scope": "entity.source.cmake",
+      "name": "Python 特定关键字",
+      "scope": "keyword.control.flow.python, storage.type.function.python, storage.type.class.python, keyword.declaration.function.python, keyword.declaration.class.python",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "Python 内置函数",
+      "scope": "support.function.builtin.python",
+      "settings": {
+        "foreground": "#ffbac2"
+      }
+    },
+    {
+      "name": "Python 字符串格式化",
+      "scope": "constant.character.format.placeholder.other.python",
+      "settings": {
+        "foreground": "#B1BA81"
+      }
+    },
+    {
+      "name": "Python 装饰器",
+      "scope": "entity.name.function.decorator.python",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "Python self/cls参数",
+      "scope": "variable.parameter.function.language.special.self.python, variable.parameter.function.language.special.cls.python",
+      "settings": {
+        "foreground": "#D73A49",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Python f-字符串",
+      "scope": "string.interpolated.python",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "Python 魔术方法",
+      "scope": "support.function.magic.python",
+      "settings": {
+        "foreground": "#CB7074"
+      }
+    },
+    {
+      "name": "Python 异常",
+      "scope": "support.type.exception.python",
+      "settings": {
+        "foreground": "#CB7074"
+      }
+    },
+    {
+      "name": "Rust 关键字",
+      "scope": "keyword.control.rust, storage.type.rust, storage.modifier.rust, keyword.other.rust",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "Rust 类型",
+      "scope": "entity.name.type.rust, storage.type.core.rust",
+      "settings": {
+        "foreground": "#00b1b1"
+      }
+    },
+    {
+      "name": "Rust trait 和接口",
+      "scope": "entity.name.type.trait.rust, storage.type.trait.rust",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "Rust 宏",
+      "scope": "entity.name.function.macro.rust, meta.macro.rust",
+      "settings": {
+        "foreground": "#CB7074"
+      }
+    },
+    {
+      "name": "Rust 生命周期参数",
+      "scope": "entity.name.lifetime.rust, punctuation.definition.lifetime.rust",
+      "settings": {
+        "foreground": "#B1BA81",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust 特殊模块路径",
+      "scope": "entity.name.namespace.rust, meta.path.rust",
       "settings": {
         "foreground": "#89B482"
       }
     },
     {
-      "scope": "storage.source.cmake",
+      "name": "Rust self 参数",
+      "scope": "variable.language.self.rust",
       "settings": {
-        "foreground": "#D8B0B0"
+        "foreground": "#D73A49",
+        "fontStyle": "italic"
       }
     },
     {
-      "scope": "comment, string.comment, punctuation.definition.comment",
+      "name": "Rust 属性宏",
+      "scope": "meta.attribute.rust",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "控制结构和关键字",
+      "scope": "keyword.control, storage.type, storage.modifier, keyword.operator.new, keyword.operator.delete, keyword.other",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "函数调用",
+      "scope": "entity.name.function, support.function",
+      "settings": {
+        "foreground": "#ffbac2"
+      }
+    },
+    {
+      "name": "函数定义和参数",
+      "scope": "meta.function.definition, meta.function.parameters, meta.function-call",
+      "settings": {
+        "foreground": "#D4BE98"
+      }
+    },
+    {
+      "name": "类型和命名空间",
+      "scope": "entity.name.type, entity.name.namespace, entity.name.class, entity.name.interface, storage.type.class, storage.type.interface, support.class",
+      "settings": {
+        "foreground": "#00b1b1"
+      }
+    },
+    {
+      "name": "变量和成员",
+      "scope": "variable.other.member, variable.other.property, variable.other.object.property",
+      "settings": {
+        "foreground": "#89B482"
+      }
+    },
+    {
+      "name": "基本变量",
+      "scope": "variable.other, variable.language",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "常量和枚举成员",
+      "scope": "constant, variable.other.constant, variable.other.enummember",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "字符串",
+      "scope": "string",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "数字",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#A7BEC6"
+      }
+    },
+    {
+      "name": "基本操作符",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#B31D28"
+      }
+    },
+    {
+      "name": "标点符号",
+      "scope": "punctuation",
+      "settings": {
+        "foreground": "#928374"
+      }
+    },
+    {
+      "name": "特殊标点符号",
+      "scope": "punctuation.separator.dot-access, punctuation.separator.pointer-access, punctuation.section",
+      "settings": {
+        "foreground": "#CB9B8F"
+      }
+    },
+    {
+      "name": "注释",
+      "scope": "comment",
       "settings": {
         "foreground": "#928374",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": "ref.matchtext",
+      "name": "文档标记",
+      "scope": "comment.block.documentation, keyword.other.documentation",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#A7BEC6",
+        "fontStyle": "italic"
       }
     },
     {
-      "scope": "token.info-token",
+      "name": "HTML/XML 标签",
+      "scope": "entity.name.tag.html, entity.name.tag.xml, entity.name.tag.localname.xml",
       "settings": {
-        "foreground": "#6796E6"
+        "foreground": "#D73A49"
       }
     },
     {
-      "scope": "token.warn-token",
+      "name": "HTML/XML 属性",
+      "scope": "entity.other.attribute-name.html, entity.other.attribute-name.xml",
       "settings": {
-        "foreground": "#CD9731"
+        "foreground": "#89B482"
       }
     },
     {
-      "scope": "token.error-token",
+      "name": "HTML/XML 标点符号",
+      "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.xml",
       "settings": {
-        "foreground": "#F44747"
+        "foreground": "#928374"
       }
     },
     {
-      "scope": "token.debug-token",
+      "name": "CSS 选择器",
+      "scope": "entity.name.tag.css, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
       "settings": {
-        "foreground": "#B267E6"
+        "foreground": "#00b1b1"
+      }
+    },
+    {
+      "name": "CSS 属性名",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "#89B482"
+      }
+    },
+    {
+      "name": "CSS 属性值",
+      "scope": "support.constant.property-value.css",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "CSS 单位",
+      "scope": "keyword.other.unit.css",
+      "settings": {
+        "foreground": "#A7BEC6"
+      }
+    },
+    {
+      "name": "CSS 伪类和伪元素",
+      "scope": "entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css",
+      "settings": {
+        "foreground": "#ffbac2"
+      }
+    },
+    {
+      "name": "CSS 媒体查询",
+      "scope": "keyword.control.at-rule.media.css",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "CSS 颜色值",
+      "scope": "constant.other.color.rgb-value.css",
+      "settings": {
+        "foreground": "#A7BEC6"
       }
     }
   ]

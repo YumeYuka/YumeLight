@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Java 特定关键字",
+    "scope": "keyword.control.java, storage.type.java, storage.modifier.java, storage.type.primitive.java, storage.type.generic.java",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "Java 类和接口",
+    "scope": "entity.name.type.class.java, entity.name.type.interface.java, entity.other.inherited-class.java, storage.type.java",
+    "settings": {
+      "foreground": "#00b1b1"
+    }
+  },
+  {
+    "name": "Java 注解",
+    "scope": "punctuation.definition.annotation.java, storage.type.annotation.java, meta.declaration.annotation.java",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "Java 方法调用",
+    "scope": "meta.method-call.java, meta.method.java",
+    "settings": {
+      "foreground": "#ffbac2"
+    }
+  },
+  {
+    "name": "Java 泛型参数",
+    "scope": "storage.type.generic.wildcard.java",
+    "settings": {
+      "foreground": "#B1BA81"
+    }
+  },
+  {
+    "name": "Java 包声明",
+    "scope": "storage.modifier.package.java, storage.modifier.import.java",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "Java 异常处理",
+    "scope": "storage.type.java, entity.name.type.class.java",
+    "settings": {
+      "foreground": "#CB7074"
+    }
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "scope": "comment, string.comment, punctuation.definition.comment",
+    "settings": {
+      "foreground": "#928374",
+      "fontStyle": "italic"
+    }
+  }
+]

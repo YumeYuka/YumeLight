@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Python 特定关键字",
+    "scope": "keyword.control.flow.python, storage.type.function.python, storage.type.class.python, keyword.declaration.function.python, keyword.declaration.class.python",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "Python 内置函数",
+    "scope": "support.function.builtin.python",
+    "settings": {
+      "foreground": "#ffbac2"
+    }
+  },
+  {
+    "name": "Python 字符串格式化",
+    "scope": "constant.character.format.placeholder.other.python",
+    "settings": {
+      "foreground": "#B1BA81"
+    }
+  },
+  {
+    "name": "Python 装饰器",
+    "scope": "entity.name.function.decorator.python",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "Python self/cls参数",
+    "scope": "variable.parameter.function.language.special.self.python, variable.parameter.function.language.special.cls.python",
+    "settings": {
+      "foreground": "#D73A49",
+      "fontStyle": "italic"
+    }
+  },
+  {
+    "name": "Python f-字符串",
+    "scope": "string.interpolated.python",
+    "settings": {
+      "foreground": "#032F62"
+    }
+  },
+  {
+    "name": "Python 魔术方法",
+    "scope": "support.function.magic.python",
+    "settings": {
+      "foreground": "#CB7074"
+    }
+  },
+  {
+    "name": "Python 异常",
+    "scope": "support.type.exception.python",
+    "settings": {
+      "foreground": "#CB7074"
+    }
+  }
+]

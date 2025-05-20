@@ -1,0 +1,58 @@
+[
+  {
+    "name": "C# 特定关键字",
+    "scope": "keyword.control.cs, storage.type.cs, storage.modifier.cs, keyword.other.cs",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "C# 类型和命名空间",
+    "scope": "entity.name.type.class.cs, entity.name.type.interface.cs, entity.name.type.enum.cs, entity.name.type.struct.cs, entity.name.namespace.cs, storage.type.cs",
+    "settings": {
+      "foreground": "#00b1b1"
+    }
+  },
+  {
+    "name": "C# 方法调用",
+    "scope": "entity.name.function.cs, meta.method-call.cs",
+    "settings": {
+      "foreground": "#ffbac2"
+    }
+  },
+  {
+    "name": "C# 预处理指令",
+    "scope": "keyword.control.directive.cs, punctuation.definition.directive.cs",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "C# 属性",
+    "scope": "entity.name.property.cs",
+    "settings": {
+      "foreground": "#89B482"
+    }
+  },
+  {
+    "name": "C# 特性 (Attributes)",
+    "scope": "storage.type.attribute.cs, meta.attribute.cs",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "C# 字符串插值",
+    "scope": "string.interpolated.cs, punctuation.definition.interpolation.begin.cs, punctuation.definition.interpolation.end.cs",
+    "settings": {
+      "foreground": "#032F62"
+    }
+  },
+  {
+    "name": "C# 字符串插值中的表达式",
+    "scope": "meta.interpolation.cs",
+    "settings": {
+      "foreground": "#D4BE98"
+    }
+  }
+]

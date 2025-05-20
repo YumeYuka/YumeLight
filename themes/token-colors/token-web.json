@@ -1,0 +1,72 @@
+[
+  {
+    "name": "HTML/XML 标签",
+    "scope": "entity.name.tag.html, entity.name.tag.xml, entity.name.tag.localname.xml",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "HTML/XML 属性",
+    "scope": "entity.other.attribute-name.html, entity.other.attribute-name.xml",
+    "settings": {
+      "foreground": "#89B482"
+    }
+  },
+  {
+    "name": "HTML/XML 标点符号",
+    "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.xml",
+    "settings": {
+      "foreground": "#928374"
+    }
+  },
+  {
+    "name": "CSS 选择器",
+    "scope": "entity.name.tag.css, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
+    "settings": {
+      "foreground": "#00b1b1"
+    }
+  },
+  {
+    "name": "CSS 属性名",
+    "scope": "support.type.property-name.css",
+    "settings": {
+      "foreground": "#89B482"
+    }
+  },
+  {
+    "name": "CSS 属性值",
+    "scope": "support.constant.property-value.css",
+    "settings": {
+      "foreground": "#005CC5"
+    }
+  },
+  {
+    "name": "CSS 单位",
+    "scope": "keyword.other.unit.css",
+    "settings": {
+      "foreground": "#A7BEC6"
+    }
+  },
+  {
+    "name": "CSS 伪类和伪元素",
+    "scope": "entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css",
+    "settings": {
+      "foreground": "#ffbac2"
+    }
+  },
+  {
+    "name": "CSS 媒体查询",
+    "scope": "keyword.control.at-rule.media.css",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "CSS 颜色值",
+    "scope": "constant.other.color.rgb-value.css",
+    "settings": {
+      "foreground": "#A7BEC6"
+    }
+  }
+]

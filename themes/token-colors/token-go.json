@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Go 特定关键字",
+    "scope": "keyword.control.go, storage.type.go, keyword.function.go, keyword.package.go, keyword.import.go, keyword.interface.go, keyword.struct.go, keyword.map.go, keyword.channel.go, keyword.var.go, keyword.const.go",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "Go 类型",
+    "scope": "entity.name.type.go, storage.type.built-in.go",
+    "settings": {
+      "foreground": "#00b1b1"
+    }
+  },
+  {
+    "name": "Go 函数调用",
+    "scope": "entity.name.function.go, support.function.go",
+    "settings": {
+      "foreground": "#ffbac2"
+    }
+  },
+  {
+    "name": "Go 接收器类型",
+    "scope": "meta.function.receiver.go storage.type.source.go",
+    "settings": {
+      "foreground": "#00b1b1"
+    }
+  },
+  {
+    "name": "Go 结构体成员",
+    "scope": "variable.other.member.go",
+    "settings": {
+      "foreground": "#89B482"
+    }
+  },
+  {
+    "name": "Go 标签",
+    "scope": "entity.name.label.go",
+    "settings": {
+      "foreground": "#AAB8AB"
+    }
+  }
+]
