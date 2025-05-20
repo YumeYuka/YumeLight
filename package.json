@@ -1,0 +1,32 @@
+{
+  "name": "Yume",
+  "displayName": "Yume Light",
+  "icon": "images/YumeYuka.png",
+  "description": "A bright-colored theme.",
+  "publisher": "YumeYuka",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YumeYuka/YumeLight"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.100.2"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Yume",  
+    "light",
+    "theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Yume Light",
+        "uiTheme": "vs",
+        "path": "./themes/my-theme-color-theme.json"
+      }
+    ]
+  }
+}
