@@ -10,7 +10,7 @@
     "name": "Python 内置函数",
     "scope": "support.function.builtin.python",
     "settings": {
-      "foreground": "#ffbac2"
+      "foreground": "#6F42C1"
     }
   },
   {
@@ -54,6 +54,27 @@
     "scope": "support.type.exception.python",
     "settings": {
       "foreground": "#CB7074"
+    }
+  },
+  {
+    "name": "Python 函数和方法调用",
+    "scope": "meta.function-call.python, meta.function-call.generic.python",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "Python 参数",
+    "scope": "variable.parameter.function.python",
+    "settings": {
+      "foreground": "#E16227"
+    }
+  },
+  {
+    "name": "Python 普通变量",
+    "scope": "variable.other.python",
+    "settings": {
+      "foreground": "#24292E"
     }
   }
 ]

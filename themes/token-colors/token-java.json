@@ -24,7 +24,7 @@
     "name": "Java 方法调用",
     "scope": "meta.method-call.java, meta.method.java",
     "settings": {
-      "foreground": "#ffbac2"
+      "foreground": "#6F42C1"
     }
   },
   {
@@ -46,6 +46,20 @@
     "scope": "storage.type.java, entity.name.type.class.java",
     "settings": {
       "foreground": "#CB7074"
+    }
+  },
+  {
+    "name": "Java 参数",
+    "scope": "variable.parameter.java",
+    "settings": {
+      "foreground": "#E16227"
+    }
+  },
+  {
+    "name": "Java 变量",
+    "scope": "variable.other.java",
+    "settings": {
+      "foreground": "#24292E"
     }
   }
 ]

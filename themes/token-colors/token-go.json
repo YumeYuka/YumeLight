@@ -17,7 +17,7 @@
     "name": "Go 函数调用",
     "scope": "entity.name.function.go, support.function.go",
     "settings": {
-      "foreground": "#ffbac2"
+      "foreground": "#6F42C1"
     }
   },
   {
@@ -39,6 +39,20 @@
     "scope": "entity.name.label.go",
     "settings": {
       "foreground": "#AAB8AB"
+    }
+  },
+  {
+    "name": "Go 参数",
+    "scope": "variable.parameter.go",
+    "settings": {
+      "foreground": "#E16227"
+    }
+  },
+  {
+    "name": "Go 普通变量",
+    "scope": "variable.other.go",
+    "settings": {
+      "foreground": "#24292E"
     }
   }
 ]

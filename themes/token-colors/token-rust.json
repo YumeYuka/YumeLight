@@ -56,5 +56,26 @@
     "settings": {
       "foreground": "#6F42C1"
     }
+  },
+  {
+    "name": "Rust 函数调用",
+    "scope": "entity.name.function.rust, meta.function-call.rust",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "Rust 参数",
+    "scope": "variable.parameter.rust",
+    "settings": {
+      "foreground": "#E16227"
+    }
+  },
+  {
+    "name": "Rust 普通变量",
+    "scope": "variable.other.rust",
+    "settings": {
+      "foreground": "#24292E"
+    }
   }
 ]

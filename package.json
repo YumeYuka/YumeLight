@@ -1,17 +1,9 @@
 {
-  "name": "YumeLight",
+  "name": "Yume-light",
   "displayName": "YumeLight",
   "icon": "images/logo.jpg",
-  "description": "A bright-colored theme.",
+  "description": "A blend of white and pink theme.",
   "publisher": "YumeYuka",
-  "scripts": {
-    "dev": "node themes/merge-theme.js",
-    "build": " node themes/merge-theme.js & vsce package "
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/YumeYuka/YumeLight"
-  },
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.100.2"
@@ -22,8 +14,22 @@
   "keywords": [
     "Yume",
     "light",
+    "pink",
+    "color",
     "theme"
   ],
+  "scripts": {
+    "dev": "node themes/merge-theme.js",
+    "build": "node themes/merge-theme.js && vsce package",
+    "publish": "vsce publish --packagePath yume-light-1.0.0.vsix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YumeYuka/YumeLight"
+  },
+  "bugs": {
+    "url": "https://github.com/YumeYuka/YumeLight/issues"
+  },
   "contributes": {
     "themes": [
       {

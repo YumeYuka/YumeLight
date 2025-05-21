@@ -31,7 +31,7 @@
     "name": "JS/TS 函数调用",
     "scope": "entity.name.function.js, entity.name.function.ts, meta.function-call.js, meta.function-call.ts, support.function.js, support.function.ts",
     "settings": {
-      "foreground": "#ffbac2"
+      "foreground": "#6F42C1"
     }
   },
   {
@@ -45,7 +45,7 @@
     "name": "JS/TS 变量",
     "scope": "variable.other.js, variable.other.ts, variable.language.js, variable.language.ts",
     "settings": {
-      "foreground": "#005CC5"
+      "foreground": "#24292E"
     }
   },
   {
@@ -81,6 +81,20 @@
     "scope": "keyword.control.import.js, keyword.control.import.ts, keyword.control.export.js, keyword.control.export.ts, keyword.control.from.js, keyword.control.from.ts",
     "settings": {
       "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "JS/TS 函数参数",
+    "scope": "variable.parameter.js, variable.parameter.ts",
+    "settings": {
+      "foreground": "#E16227"
+    }
+  },
+  {
+    "name": "JS/TS 全局变量",
+    "scope": "support.variable.dom.js, support.variable.property.js, support.variable.object.process.js, support.variable.object.node.js",
+    "settings": {
+      "foreground": "#8512a0"
     }
   }
 ]
