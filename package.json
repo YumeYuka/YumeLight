@@ -21,7 +21,7 @@
   "scripts": {
     "dev": "node themes/merge-theme.js",
     "build": "node themes/merge-theme.js && vsce package",
-    "publish": "vsce publish --packagePath yume-light-1.0.0.vsix"
+    "publish": "vsce publish"
   },
   "repository": {
     "type": "git",
