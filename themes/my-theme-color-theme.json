@@ -4,7 +4,7 @@
   "colors": {
     "activityBar.activeBorder": "#FFB7C5",
     "activityBar.activeFocusBorder": "#FFB7C5",
-    "activityBar.background": "#F5F5F5",
+    "activityBar.background": "#F4F4F4",
     "activityBar.border": "#E0E0E0",
     "activityBar.foreground": "#5A524C",
     "activityBar.inactiveForeground": "#7c6f64",
@@ -251,7 +251,7 @@
     "notificationsErrorIcon.foreground": "#CB7074",
     "notificationsInfoIcon.foreground": "#FFB7C5",
     "notificationsWarningIcon.foreground": "#d8a657",
-    "panel.background": "#FFFFFF",
+    "panel.background": "#F4F4F4",
     "panel.border": "#E0E0E0",
     "panelInput.border": "#E0E0E0",
     "panelSection.border": "#E0E0E0",
@@ -303,7 +303,7 @@
     "settings.textInputBackground": "#FFFFFF",
     "settings.textInputBorder": "#FFDDE5",
     "settings.textInputForeground": "#7daea3",
-    "sideBar.background": "#FFFFFF",
+    "sideBar.background": "#F4F4F4",
     "sideBar.foreground": "#5A524C",
     "sideBarSectionHeader.background": "#FFFFFF00",
     "sideBarSectionHeader.foreground": "#a89984",
@@ -390,6 +390,7 @@
     "terminal.ansiYellow": "#d8a657",
     "terminal.foreground": "#5A524C",
     "terminalCursor.foreground": "#FFB7C5",
+    "terminal.background": "#F4F4F4",
     "testing.iconErrored": "#CB7074",
     "testing.iconFailed": "#CB7074",
     "testing.iconPassed": "#89b482",
@@ -462,35 +463,35 @@
       "name": "C/C++ 函数调用、参数、数组括号",
       "scope": "meta.function-call.c, storage.modifier.array.bracket.square.c, meta.function.definition.parameters.c, meta.function-call.cpp, storage.modifier.array.bracket.square.cpp, meta.function.definition.parameters.cpp",
       "settings": {
-        "foreground": "#D4BE98"
+        "foreground": "#24292E"
       }
     },
     {
       "name": "C/C++ 点访问符、行连续符",
       "scope": "punctuation.separator.dot-access.c, constant.character.escape.line-continuation.c, punctuation.separator.dot-access.cpp, constant.character.escape.line-continuation.cpp",
       "settings": {
-        "foreground": "#928374"
+        "foreground": "#24292E"
       }
     },
     {
       "name": "C 预处理指令",
       "scope": "keyword.control.directive.include.c, punctuation.definition.directive.c, keyword.control.directive.pragma.c, keyword.control.directive.line.c, keyword.control.directive.define.c, keyword.control.directive.conditional.c, keyword.control.directive.diagnostic.error.c, keyword.control.directive.undef.c, keyword.control.directive.conditional.ifdef.c, keyword.control.directive.endif.c, keyword.control.directive.conditional.ifndef.c, keyword.control.directive.conditional.if.c, keyword.control.directive.else.c",
       "settings": {
-        "foreground": "#CB7074"
+        "foreground": "#6F42C1"
       }
     },
     {
       "name": "C 指针访问符",
       "scope": "punctuation.separator.pointer-access.c",
       "settings": {
-        "foreground": "#CB9B8F"
+        "foreground": "#24292E"
       }
     },
     {
       "name": "C/C++ 成员变量",
       "scope": "variable.other.member.c, variable.other.member.cpp",
       "settings": {
-        "foreground": "#89B482"
+        "foreground": "#24292E"
       }
     },
     {
@@ -516,26 +517,35 @@
       "name": "C++ 预处理指令定义符",
       "scope": "punctuation.definition.directive.cpp",
       "settings": {
-        "foreground": "#6F42C1"
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "C++ global 变量",
+      "scope": "variable.other.global.cpp",
+      "settings": {
+        "foreground": "#8512a0"
       }
     },
     {
       "name": "C++ 命名空间主体",
-      "scope": "meta.body.namespace.cpp",
-      "settings": {}
+      "scope": "meta.block.cpp",
+      "settings": {
+        "foreground": "#005CC5"
+      }
     },
     {
       "name": "C++ 结构体和枚举类型名",
       "scope": "entity.name.type.struct.cpp, storage.type.enum.cpp",
       "settings": {
-        "foreground": "#00b1b1"
+        "foreground": "#E36209"
       }
     },
     {
       "name": "C++ 枚举类型名",
       "scope": "entity.name.type.enum.cpp",
       "settings": {
-        "foreground": "#00b1b1"
+        "foreground": "#005CC5"
       }
     },
     {
@@ -546,9 +556,11 @@
       }
     },
     {
-      "name": "C++ 结构体主体",
-      "scope": "meta.body.struct.cpp",
-      "settings": {}
+      "name": "C/C++ 函数调用、参数、数组括号",
+      "scope": "variable.parameter.cpp",
+      "settings": {
+        "foreground": "#E16227"
+      }
     },
     {
       "name": "C++ 关键字 (using, new, typedef, this, 控制流)",
@@ -568,7 +580,7 @@
       "name": "C++ 指针访问符和模板尖括号",
       "scope": "punctuation.separator.pointer-access.cpp, punctuation.section.angle-brackets.begin.template.call.cpp, punctuation.section.angle-brackets.end.template.call.cpp",
       "settings": {
-        "foreground": "#CB9B8F"
+        "foreground": "#24292E"
       }
     },
     {
@@ -582,14 +594,21 @@
       "name": "C++ 函数调用名",
       "scope": "entity.name.function.call.cpp",
       "settings": {
-        "foreground": "#ffbac2"
+        "foreground": "#6F42C1"
       }
     },
     {
       "name": "C++ 类名和命名空间名",
       "scope": "entity.name.type.class.cpp, entity.name.namespace.cpp",
       "settings": {
-        "foreground": "#00b1b1"
+        "foreground": "#00B1B1"
+      }
+    },
+    {
+      "name": "C++ Typedef关键字",
+      "scope": "entity.name.type.cpp",
+      "settings": {
+        "foreground": "#4728a6"
       }
     },
     {
@@ -1244,14 +1263,14 @@
       "name": "函数调用",
       "scope": "entity.name.function, support.function",
       "settings": {
-        "foreground": "#ffbac2"
+        "foreground": "#D81B60"
       }
     },
     {
       "name": "函数定义和参数",
       "scope": "meta.function.definition, meta.function.parameters, meta.function-call",
       "settings": {
-        "foreground": "#D4BE98"
+        "foreground": "#B09878"
       }
     },
     {
@@ -1272,14 +1291,14 @@
       "name": "基本变量",
       "scope": "variable.other, variable.language",
       "settings": {
-        "foreground": "#005CC5"
+        "foreground": "#000000"
       }
     },
     {
       "name": "常量和枚举成员",
       "scope": "constant, variable.other.constant, variable.other.enummember",
       "settings": {
-        "foreground": "#005CC5"
+        "foreground": "#000000"
       }
     },
     {
@@ -1293,7 +1312,7 @@
       "name": "数字",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#A7BEC6"
+        "foreground": "#569CD6"
       }
     },
     {
@@ -1307,7 +1326,7 @@
       "name": "标点符号",
       "scope": "punctuation",
       "settings": {
-        "foreground": "#928374"
+        "foreground": "#7D6B5F"
       }
     },
     {
@@ -1321,7 +1340,7 @@
       "name": "注释",
       "scope": "comment",
       "settings": {
-        "foreground": "#928374",
+        "foreground": "#969896",
         "fontStyle": "italic"
       }
     },
@@ -1329,7 +1348,7 @@
       "name": "文档标记",
       "scope": "comment.block.documentation, keyword.other.documentation",
       "settings": {
-        "foreground": "#A7BEC6",
+        "foreground": "#969896",
         "fontStyle": "italic"
       }
     },

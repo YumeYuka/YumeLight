@@ -10,14 +10,14 @@
     "name": "函数调用",
     "scope": "entity.name.function, support.function",
     "settings": {
-      "foreground": "#ffbac2"
+      "foreground": "#D81B60"
     }
   },
   {
     "name": "函数定义和参数",
     "scope": "meta.function.definition, meta.function.parameters, meta.function-call",
     "settings": {
-      "foreground": "#D4BE98"
+      "foreground": "#B09878"
     }
   },
   {
@@ -38,14 +38,14 @@
     "name": "基本变量",
     "scope": "variable.other, variable.language",
     "settings": {
-      "foreground": "#005CC5"
+      "foreground": "#000000"
     }
   },
   {
     "name": "常量和枚举成员",
     "scope": "constant, variable.other.constant, variable.other.enummember",
     "settings": {
-      "foreground": "#005CC5"
+      "foreground": "#000000"
     }
   },
   {
@@ -59,7 +59,7 @@
     "name": "数字",
     "scope": "constant.numeric",
     "settings": {
-      "foreground": "#A7BEC6"
+      "foreground": "#569CD6"
     }
   },
   {
@@ -73,7 +73,7 @@
     "name": "标点符号",
     "scope": "punctuation",
     "settings": {
-      "foreground": "#928374"
+      "foreground": "#7D6B5F"
     }
   },
   {
@@ -87,7 +87,7 @@
     "name": "注释",
     "scope": "comment",
     "settings": {
-      "foreground": "#928374",
+      "foreground": "#969896",
       "fontStyle": "italic"
     }
   },
@@ -95,7 +95,7 @@
     "name": "文档标记",
     "scope": "comment.block.documentation, keyword.other.documentation",
     "settings": {
-      "foreground": "#A7BEC6",
+      "foreground": "#969896",
       "fontStyle": "italic"
     }
   }
