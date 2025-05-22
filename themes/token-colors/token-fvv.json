@@ -1,0 +1,129 @@
+[
+  {
+    "name": "FVV 键名",
+    "scope": "variable.other.member.fvv",
+    "settings": {
+      "foreground": "#E15D81"
+    }
+  },
+  {
+    "name": "FVV 字符串值",
+    "scope": "string.quoted.double.fvv",
+    "settings": {
+      "foreground": "#4B956A"
+    }
+  },
+  {
+    "name": "FVV 数值",
+    "scope": "constant.numeric.fvv",
+    "settings": {
+      "foreground": "#7B6DD6"
+    }
+  },
+  {
+    "name": "FVV 布尔值",
+    "scope": "constant.language.fvv",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "FVV 赋值操作符(=)",
+    "scope": "keyword.operator.assignment.fvv",
+    "settings": {
+      "foreground": "#B31D28"
+    }
+  },
+  {
+    "name": "FVV 大括号",
+    "scope": "punctuation.definition.block.fvv, punctuation.section.block.begin.fvv, punctuation.section.block.end.fvv",
+    "settings": {
+      "foreground": "#7A7A7A"
+    }
+  },
+  {
+    "name": "FVV 方括号",
+    "scope": "punctuation.definition.array.fvv, punctuation.definition.array.begin.fvv, punctuation.definition.array.end.fvv",
+    "settings": {
+      "foreground": "#7A7A7A"
+    }
+  },
+  {
+    "name": "FVV 分隔符",
+    "scope": "punctuation.separator.fvv, meta.separator.fvv",
+    "settings": {
+      "foreground": "#7A7A7A"
+    }
+  },
+  {
+    "name": "FVV 对象属性访问",
+    "scope": "punctuation.accessor.fvv, meta.structure.dictionary.fvv",
+    "settings": {
+      "foreground": "#7A7A7A"
+    }
+  },
+  {
+    "name": "FVV 路径字符串",
+    "scope": "string.fvv.path, string.quoted.double.fvv.path",
+    "settings": {
+      "foreground": "#0550AE"
+    }
+  },
+  {
+    "name": "FVV 路径中的变量占位符",
+    "scope": "constant.character.escape.fvv, variable.parameter.fvv, meta.interpolation.fvv",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "FVV 注释",
+    "scope": "comment.line.fvv, comment.block.fvv",
+    "settings": {
+      "foreground": "#8E8E8E",
+      "fontStyle": "italic"
+    }
+  },
+  {
+    "name": "FVV 特殊标记(< >)",
+    "scope": "punctuation.definition.tag.fvv",
+    "settings": {
+      "foreground": "#E36209"
+    }
+  },
+  {
+    "name": "FVV 节名称(方括号内的标签)",
+    "scope": "entity.name.section.fvv, entity.name.type.fvv",
+    "settings": {
+      "foreground": "#00B1B1"
+    }
+  },
+  {
+    "name": "FVV 数组元素",
+    "scope": "meta.structure.array.fvv",
+    "settings": {
+      "foreground": "#24292E"
+    }
+  },
+  {
+    "name": "FVV [name] 动态名称变量",
+    "scope": "variable.other.readwrite.fvv, variable.parameter.fvv.dynamic",
+    "settings": {
+      "foreground": "#E36209"
+    }
+  },
+  {
+    "name": "FVV 时间格式字符串",
+    "scope": "constant.other.time.fvv, constant.other.date.fvv",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "FVV 路径通配符",
+    "scope": "constant.other.wildcard.fvv",
+    "settings": {
+      "foreground": "#8512a0"
+    }
+  }
+]

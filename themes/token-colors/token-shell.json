@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Shell 关键字",
+    "scope": "keyword.control.shell, keyword.operator.logical.shell",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "Shell 命令名",
+    "scope": "entity.name.function.shell, support.function.builtin.shell",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "Shell 函数名",
+    "scope": "meta.function-call.shell",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "Shell 变量",
+    "scope": "variable.other.normal.shell, variable.other.bracket.shell, variable.other.shell",
+    "settings": {
+      "foreground": "#24292E"
+    }
+  },
+  {
+    "name": "Shell 特殊变量",
+    "scope": "variable.other.special.shell, variable.parameter.option.shell",
+    "settings": {
+      "foreground": "#8512a0"
+    }
+  },
+  {
+    "name": "Shell 参数和选项",
+    "scope": "variable.parameter.shell, string.unquoted.parameter.shell",
+    "settings": {
+      "foreground": "#E16227"
+    }
+  },
+  {
+    "name": "Shell 字符串",
+    "scope": "string.quoted.single.shell, string.quoted.double.shell",
+    "settings": {
+      "foreground": "#032F62"
+    }
+  },
+  {
+    "name": "Shell 变量插值",
+    "scope": "variable.parameter.expansion.shell, punctuation.definition.variable.shell",
+    "settings": {
+      "foreground": "#005CC5"
+    }
+  },
+  {
+    "name": "Shell 命令替换",
+    "scope": "string.interpolated.backtick.shell, string.interpolated.process-substitution.shell",
+    "settings": {
+      "foreground": "#B1BA81"
+    }
+  },
+  {
+    "name": "Shell 操作符",
+    "scope": "keyword.operator.assignment.shell, keyword.operator.arithmetic.shell, keyword.operator.comparison.shell",
+    "settings": {
+      "foreground": "#B31D28"
+    }
+  },
+  {
+    "name": "Shell 管道和重定向",
+    "scope": "keyword.operator.pipe.shell, keyword.operator.redirect.shell",
+    "settings": {
+      "foreground": "#B31D28"
+    }
+  },
+  {
+    "name": "Shell 数字",
+    "scope": "constant.numeric.shell",
+    "settings": {
+      "foreground": "#569CD6"
+    }
+  },
+  {
+    "name": "Shell 条件表达式",
+    "scope": "string.interpolated.dollar.shell",
+    "settings": {
+      "foreground": "#CB7074"
+    }
+  },
+  {
+    "name": "Shell 转义序列",
+    "scope": "constant.character.escape.shell",
+    "settings": {
+      "foreground": "#B1BA81"
+    }
+  },
+  {
+    "name": "Shell Here 文档",
+    "scope": "string.unquoted.heredoc.shell, string.unquoted.herestring.shell",
+    "settings": {
+      "foreground": "#032F62"
+    }
+  },
+  {
+    "name": "Shell 保留字",
+    "scope": "keyword.control.conditional.shell, keyword.control.loop.shell, keyword.other.shell",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  }
+]

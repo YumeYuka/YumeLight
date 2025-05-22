@@ -16,7 +16,12 @@
     "light",
     "pink",
     "color",
-    "theme"
+    "theme",
+    "php",
+    "swift",
+    "ruby",
+    "shell",
+    "fvv"
   ],
   "scripts": {
     "dev": "node themes/merge-theme.js",

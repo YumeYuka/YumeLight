@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Swift 关键字",
+    "scope": "keyword.control.swift, keyword.declaration.swift, storage.type.swift, storage.modifier.swift",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "Swift 类型名",
+    "scope": "entity.name.type.swift, support.type.swift",
+    "settings": {
+      "foreground": "#00B1B1"
+    }
+  },
+  {
+    "name": "Swift 协议名",
+    "scope": "entity.name.type.protocol.swift",
+    "settings": {
+      "foreground": "#00B1B1"
+    }
+  },
+  {
+    "name": "Swift 枚举和结构体名",
+    "scope": "entity.name.type.enum.swift, entity.name.type.struct.swift",
+    "settings": {
+      "foreground": "#E36209"
+    }
+  },
+  {
+    "name": "Swift 函数调用",
+    "scope": "entity.name.function.swift, support.function.swift",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "Swift self",
+    "scope": "variable.language.swift",
+    "settings": {
+      "foreground": "#D73A49",
+      "fontStyle": "italic"
+    }
+  },
+  {
+    "name": "Swift 属性和成员变量",
+    "scope": "variable.other.property.swift, variable.other.object.property.swift",
+    "settings": {
+      "foreground": "#89B482"
+    }
+  },
+  {
+    "name": "Swift 普通变量",
+    "scope": "variable.other.swift",
+    "settings": {
+      "foreground": "#24292E"
+    }
+  },
+  {
+    "name": "Swift 全局变量",
+    "scope": "variable.other.global.swift",
+    "settings": {
+      "foreground": "#8512a0"
+    }
+  },
+  {
+    "name": "Swift 参数",
+    "scope": "variable.parameter.swift",
+    "settings": {
+      "foreground": "#E16227"
+    }
+  },
+  {
+    "name": "Swift 字符串",
+    "scope": "string.quoted.single.swift, string.quoted.double.swift",
+    "settings": {
+      "foreground": "#032F62"
+    }
+  },
+  {
+    "name": "Swift 字符串插值",
+    "scope": "constant.character.escape.swift, meta.string-interpolation.swift",
+    "settings": {
+      "foreground": "#B1BA81"
+    }
+  },
+  {
+    "name": "Swift 操作符",
+    "scope": "keyword.operator.swift",
+    "settings": {
+      "foreground": "#B31D28"
+    }
+  },
+  {
+    "name": "Swift 扩展",
+    "scope": "keyword.declaration.extension.swift",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "Swift 类型注解",
+    "scope": "meta.type-annotation.swift",
+    "settings": {
+      "foreground": "#4728a6"
+    }
+  },
+  {
+    "name": "Swift 数字",
+    "scope": "constant.numeric.swift",
+    "settings": {
+      "foreground": "#569CD6"
+    }
+  },
+  {
+    "name": "Swift 常量",
+    "scope": "constant.language.swift",
+    "settings": {
+      "foreground": "#005CC5"
+    }
+  },
+  {
+    "name": "Swift 泛型参数",
+    "scope": "entity.name.type.generic.swift",
+    "settings": {
+      "foreground": "#B1BA81"
+    }
+  }
+]

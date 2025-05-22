@@ -675,6 +675,133 @@
       }
     },
     {
+      "name": "FVV 键名",
+      "scope": "variable.other.member.fvv",
+      "settings": {
+        "foreground": "#E15D81"
+      }
+    },
+    {
+      "name": "FVV 字符串值",
+      "scope": "string.quoted.double.fvv",
+      "settings": {
+        "foreground": "#4B956A"
+      }
+    },
+    {
+      "name": "FVV 数值",
+      "scope": "constant.numeric.fvv",
+      "settings": {
+        "foreground": "#7B6DD6"
+      }
+    },
+    {
+      "name": "FVV 布尔值",
+      "scope": "constant.language.fvv",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "FVV 赋值操作符(=)",
+      "scope": "keyword.operator.assignment.fvv",
+      "settings": {
+        "foreground": "#B31D28"
+      }
+    },
+    {
+      "name": "FVV 大括号",
+      "scope": "punctuation.definition.block.fvv, punctuation.section.block.begin.fvv, punctuation.section.block.end.fvv",
+      "settings": {
+        "foreground": "#7A7A7A"
+      }
+    },
+    {
+      "name": "FVV 方括号",
+      "scope": "punctuation.definition.array.fvv, punctuation.definition.array.begin.fvv, punctuation.definition.array.end.fvv",
+      "settings": {
+        "foreground": "#7A7A7A"
+      }
+    },
+    {
+      "name": "FVV 分隔符",
+      "scope": "punctuation.separator.fvv, meta.separator.fvv",
+      "settings": {
+        "foreground": "#7A7A7A"
+      }
+    },
+    {
+      "name": "FVV 对象属性访问",
+      "scope": "punctuation.accessor.fvv, meta.structure.dictionary.fvv",
+      "settings": {
+        "foreground": "#7A7A7A"
+      }
+    },
+    {
+      "name": "FVV 路径字符串",
+      "scope": "string.fvv.path, string.quoted.double.fvv.path",
+      "settings": {
+        "foreground": "#0550AE"
+      }
+    },
+    {
+      "name": "FVV 路径中的变量占位符",
+      "scope": "constant.character.escape.fvv, variable.parameter.fvv, meta.interpolation.fvv",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "FVV 注释",
+      "scope": "comment.line.fvv, comment.block.fvv",
+      "settings": {
+        "foreground": "#8E8E8E",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "FVV 特殊标记(< >)",
+      "scope": "punctuation.definition.tag.fvv",
+      "settings": {
+        "foreground": "#E36209"
+      }
+    },
+    {
+      "name": "FVV 节名称(方括号内的标签)",
+      "scope": "entity.name.section.fvv, entity.name.type.fvv",
+      "settings": {
+        "foreground": "#00B1B1"
+      }
+    },
+    {
+      "name": "FVV 数组元素",
+      "scope": "meta.structure.array.fvv",
+      "settings": {
+        "foreground": "#24292E"
+      }
+    },
+    {
+      "name": "FVV [name] 动态名称变量",
+      "scope": "variable.other.readwrite.fvv, variable.parameter.fvv.dynamic",
+      "settings": {
+        "foreground": "#E36209"
+      }
+    },
+    {
+      "name": "FVV 时间格式字符串",
+      "scope": "constant.other.time.fvv, constant.other.date.fvv",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "FVV 路径通配符",
+      "scope": "constant.other.wildcard.fvv",
+      "settings": {
+        "foreground": "#8512a0"
+      }
+    },
+    {
       "scope": "constant.character.escape, punctuation.quasi.element, punctuation.definition.template-expression, punctuation.section.embedded, storage.type.format, constant.other.placeholder, variable.interpolation",
       "settings": {
         "foreground": "#B1BA81"
@@ -1124,6 +1251,140 @@
       }
     },
     {
+      "name": "PHP 标签",
+      "scope": "punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "PHP 语言关键字",
+      "scope": "keyword.control.php, keyword.other.namespace.php, keyword.other.use.php, keyword.other.function.use.php, keyword.other.class.php, keyword.other.interface.php, keyword.other.trait.php, storage.type.php, storage.modifier.php, storage.type.class.php",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "PHP 变量",
+      "scope": "variable.other.php, punctuation.definition.variable.php",
+      "settings": {
+        "foreground": "#24292E"
+      }
+    },
+    {
+      "name": "PHP 全局变量和超全局变量",
+      "scope": "variable.other.global.php, variable.other.global.safer.php, variable.other.superglobal.php",
+      "settings": {
+        "foreground": "#8512a0"
+      }
+    },
+    {
+      "name": "PHP 类名和命名空间",
+      "scope": "entity.name.type.class.php, entity.name.type.namespace.php, support.class.php",
+      "settings": {
+        "foreground": "#00B1B1"
+      }
+    },
+    {
+      "name": "PHP 接口名",
+      "scope": "entity.name.type.interface.php",
+      "settings": {
+        "foreground": "#00B1B1"
+      }
+    },
+    {
+      "name": "PHP Trait名",
+      "scope": "entity.name.type.trait.php",
+      "settings": {
+        "foreground": "#00B1B1"
+      }
+    },
+    {
+      "name": "PHP 函数调用名",
+      "scope": "entity.name.function.php, support.function.php",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "PHP 成员变量和成员函数",
+      "scope": "variable.other.member.php, meta.method-call.php",
+      "settings": {
+        "foreground": "#89B482"
+      }
+    },
+    {
+      "name": "PHP this 变量",
+      "scope": "variable.language.this.php",
+      "settings": {
+        "foreground": "#D73A49",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "PHP 字符串",
+      "scope": "string.quoted.single.php, string.quoted.double.php",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "PHP heredoc/nowdoc",
+      "scope": "string.unquoted.heredoc.php, string.unquoted.nowdoc.php",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "PHP 字符串中的变量",
+      "scope": "meta.string-contents.quoted.double.php variable.other.php, meta.string-contents.quoted.double.php punctuation.definition.variable.php",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "PHP 函数参数",
+      "scope": "variable.parameter.php",
+      "settings": {
+        "foreground": "#E16227"
+      }
+    },
+    {
+      "name": "PHP 操作符",
+      "scope": "keyword.operator.assignment.php, keyword.operator.arithmetic.php, keyword.operator.comparison.php, keyword.operator.logical.php",
+      "settings": {
+        "foreground": "#B31D28"
+      }
+    },
+    {
+      "name": "PHP 类型定义",
+      "scope": "storage.type.php, keyword.other.type.php",
+      "settings": {
+        "foreground": "#4728a6"
+      }
+    },
+    {
+      "name": "PHP 常量",
+      "scope": "constant.language.php, constant.other.php",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "PHP 魔术常量",
+      "scope": "constant.other.php",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "PHP 魔术方法",
+      "scope": "entity.name.function.magic.php",
+      "settings": {
+        "foreground": "#CB7074"
+      }
+    },
+    {
       "name": "PowerShell 函数和属性",
       "scope": "entity.name.function.powershell, support.function.attribute.powershell, support.function.powershell",
       "settings": {
@@ -1258,6 +1519,133 @@
       }
     },
     {
+      "name": "Ruby 关键字",
+      "scope": "keyword.control.ruby, keyword.other.special-method.ruby, keyword.control.def.ruby, keyword.control.class.ruby, keyword.control.module.ruby",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "Ruby 类名和模块名",
+      "scope": "entity.name.type.class.ruby, entity.name.type.module.ruby",
+      "settings": {
+        "foreground": "#00B1B1"
+      }
+    },
+    {
+      "name": "Ruby 常量",
+      "scope": "constant.language.ruby, constant.other.ruby",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "Ruby 实例变量",
+      "scope": "variable.other.readwrite.instance.ruby, punctuation.definition.variable.ruby",
+      "settings": {
+        "foreground": "#8512a0"
+      }
+    },
+    {
+      "name": "Ruby 全局变量",
+      "scope": "variable.other.readwrite.global.ruby, variable.other.readwrite.global.pre-defined.ruby",
+      "settings": {
+        "foreground": "#8512a0"
+      }
+    },
+    {
+      "name": "Ruby 类变量",
+      "scope": "variable.other.readwrite.class.ruby",
+      "settings": {
+        "foreground": "#8512a0"
+      }
+    },
+    {
+      "name": "Ruby 符号",
+      "scope": "constant.other.symbol.ruby, punctuation.definition.constant.ruby",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "Ruby 字符串",
+      "scope": "string.quoted.single.ruby, string.quoted.double.ruby, string.quoted.double.interpolated.ruby",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "Ruby 字符串插值",
+      "scope": "meta.embedded.line.ruby, punctuation.section.embedded.begin.ruby, punctuation.section.embedded.end.ruby",
+      "settings": {
+        "foreground": "#B1BA81"
+      }
+    },
+    {
+      "name": "Ruby 函数调用",
+      "scope": "entity.name.function.ruby, support.function.ruby",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "Ruby 方法参数",
+      "scope": "variable.parameter.ruby",
+      "settings": {
+        "foreground": "#E16227"
+      }
+    },
+    {
+      "name": "Ruby 普通变量",
+      "scope": "variable.other.ruby",
+      "settings": {
+        "foreground": "#24292E"
+      }
+    },
+    {
+      "name": "Ruby self",
+      "scope": "variable.language.self.ruby",
+      "settings": {
+        "foreground": "#D73A49",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Ruby 块参数",
+      "scope": "variable.parameter.block.ruby",
+      "settings": {
+        "foreground": "#E16227"
+      }
+    },
+    {
+      "name": "Ruby 数字",
+      "scope": "constant.numeric.ruby",
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "name": "Ruby 操作符",
+      "scope": "keyword.operator.assignment.ruby, keyword.operator.arithmetic.ruby, keyword.operator.comparison.ruby, keyword.operator.logical.ruby",
+      "settings": {
+        "foreground": "#B31D28"
+      }
+    },
+    {
+      "name": "Ruby 正则表达式",
+      "scope": "string.regexp.ruby",
+      "settings": {
+        "foreground": "#CB7074"
+      }
+    },
+    {
+      "name": "Ruby Here Document",
+      "scope": "string.unquoted.heredoc.ruby",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
       "name": "Rust 关键字",
       "scope": "keyword.control.rust, storage.type.rust, storage.modifier.rust, keyword.other.rust",
       "settings": {
@@ -1334,6 +1722,245 @@
       "scope": "variable.other.rust",
       "settings": {
         "foreground": "#24292E"
+      }
+    },
+    {
+      "name": "Shell 关键字",
+      "scope": "keyword.control.shell, keyword.operator.logical.shell",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "Shell 命令名",
+      "scope": "entity.name.function.shell, support.function.builtin.shell",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "Shell 函数名",
+      "scope": "meta.function-call.shell",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "Shell 变量",
+      "scope": "variable.other.normal.shell, variable.other.bracket.shell, variable.other.shell",
+      "settings": {
+        "foreground": "#24292E"
+      }
+    },
+    {
+      "name": "Shell 特殊变量",
+      "scope": "variable.other.special.shell, variable.parameter.option.shell",
+      "settings": {
+        "foreground": "#8512a0"
+      }
+    },
+    {
+      "name": "Shell 参数和选项",
+      "scope": "variable.parameter.shell, string.unquoted.parameter.shell",
+      "settings": {
+        "foreground": "#E16227"
+      }
+    },
+    {
+      "name": "Shell 字符串",
+      "scope": "string.quoted.single.shell, string.quoted.double.shell",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "Shell 变量插值",
+      "scope": "variable.parameter.expansion.shell, punctuation.definition.variable.shell",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "Shell 命令替换",
+      "scope": "string.interpolated.backtick.shell, string.interpolated.process-substitution.shell",
+      "settings": {
+        "foreground": "#B1BA81"
+      }
+    },
+    {
+      "name": "Shell 操作符",
+      "scope": "keyword.operator.assignment.shell, keyword.operator.arithmetic.shell, keyword.operator.comparison.shell",
+      "settings": {
+        "foreground": "#B31D28"
+      }
+    },
+    {
+      "name": "Shell 管道和重定向",
+      "scope": "keyword.operator.pipe.shell, keyword.operator.redirect.shell",
+      "settings": {
+        "foreground": "#B31D28"
+      }
+    },
+    {
+      "name": "Shell 数字",
+      "scope": "constant.numeric.shell",
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "name": "Shell 条件表达式",
+      "scope": "string.interpolated.dollar.shell",
+      "settings": {
+        "foreground": "#CB7074"
+      }
+    },
+    {
+      "name": "Shell 转义序列",
+      "scope": "constant.character.escape.shell",
+      "settings": {
+        "foreground": "#B1BA81"
+      }
+    },
+    {
+      "name": "Shell Here 文档",
+      "scope": "string.unquoted.heredoc.shell, string.unquoted.herestring.shell",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "Shell 保留字",
+      "scope": "keyword.control.conditional.shell, keyword.control.loop.shell, keyword.other.shell",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "Swift 关键字",
+      "scope": "keyword.control.swift, keyword.declaration.swift, storage.type.swift, storage.modifier.swift",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "Swift 类型名",
+      "scope": "entity.name.type.swift, support.type.swift",
+      "settings": {
+        "foreground": "#00B1B1"
+      }
+    },
+    {
+      "name": "Swift 协议名",
+      "scope": "entity.name.type.protocol.swift",
+      "settings": {
+        "foreground": "#00B1B1"
+      }
+    },
+    {
+      "name": "Swift 枚举和结构体名",
+      "scope": "entity.name.type.enum.swift, entity.name.type.struct.swift",
+      "settings": {
+        "foreground": "#E36209"
+      }
+    },
+    {
+      "name": "Swift 函数调用",
+      "scope": "entity.name.function.swift, support.function.swift",
+      "settings": {
+        "foreground": "#6F42C1"
+      }
+    },
+    {
+      "name": "Swift self",
+      "scope": "variable.language.swift",
+      "settings": {
+        "foreground": "#D73A49",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Swift 属性和成员变量",
+      "scope": "variable.other.property.swift, variable.other.object.property.swift",
+      "settings": {
+        "foreground": "#89B482"
+      }
+    },
+    {
+      "name": "Swift 普通变量",
+      "scope": "variable.other.swift",
+      "settings": {
+        "foreground": "#24292E"
+      }
+    },
+    {
+      "name": "Swift 全局变量",
+      "scope": "variable.other.global.swift",
+      "settings": {
+        "foreground": "#8512a0"
+      }
+    },
+    {
+      "name": "Swift 参数",
+      "scope": "variable.parameter.swift",
+      "settings": {
+        "foreground": "#E16227"
+      }
+    },
+    {
+      "name": "Swift 字符串",
+      "scope": "string.quoted.single.swift, string.quoted.double.swift",
+      "settings": {
+        "foreground": "#032F62"
+      }
+    },
+    {
+      "name": "Swift 字符串插值",
+      "scope": "constant.character.escape.swift, meta.string-interpolation.swift",
+      "settings": {
+        "foreground": "#B1BA81"
+      }
+    },
+    {
+      "name": "Swift 操作符",
+      "scope": "keyword.operator.swift",
+      "settings": {
+        "foreground": "#B31D28"
+      }
+    },
+    {
+      "name": "Swift 扩展",
+      "scope": "keyword.declaration.extension.swift",
+      "settings": {
+        "foreground": "#D73A49"
+      }
+    },
+    {
+      "name": "Swift 类型注解",
+      "scope": "meta.type-annotation.swift",
+      "settings": {
+        "foreground": "#4728a6"
+      }
+    },
+    {
+      "name": "Swift 数字",
+      "scope": "constant.numeric.swift",
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "name": "Swift 常量",
+      "scope": "constant.language.swift",
+      "settings": {
+        "foreground": "#005CC5"
+      }
+    },
+    {
+      "name": "Swift 泛型参数",
+      "scope": "entity.name.type.generic.swift",
+      "settings": {
+        "foreground": "#B1BA81"
       }
     },
     {

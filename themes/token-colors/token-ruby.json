@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Ruby 关键字",
+    "scope": "keyword.control.ruby, keyword.other.special-method.ruby, keyword.control.def.ruby, keyword.control.class.ruby, keyword.control.module.ruby",
+    "settings": {
+      "foreground": "#D73A49"
+    }
+  },
+  {
+    "name": "Ruby 类名和模块名",
+    "scope": "entity.name.type.class.ruby, entity.name.type.module.ruby",
+    "settings": {
+      "foreground": "#00B1B1"
+    }
+  },
+  {
+    "name": "Ruby 常量",
+    "scope": "constant.language.ruby, constant.other.ruby",
+    "settings": {
+      "foreground": "#005CC5"
+    }
+  },
+  {
+    "name": "Ruby 实例变量",
+    "scope": "variable.other.readwrite.instance.ruby, punctuation.definition.variable.ruby",
+    "settings": {
+      "foreground": "#8512a0"
+    }
+  },
+  {
+    "name": "Ruby 全局变量",
+    "scope": "variable.other.readwrite.global.ruby, variable.other.readwrite.global.pre-defined.ruby",
+    "settings": {
+      "foreground": "#8512a0"
+    }
+  },
+  {
+    "name": "Ruby 类变量",
+    "scope": "variable.other.readwrite.class.ruby",
+    "settings": {
+      "foreground": "#8512a0"
+    }
+  },
+  {
+    "name": "Ruby 符号",
+    "scope": "constant.other.symbol.ruby, punctuation.definition.constant.ruby",
+    "settings": {
+      "foreground": "#032F62"
+    }
+  },
+  {
+    "name": "Ruby 字符串",
+    "scope": "string.quoted.single.ruby, string.quoted.double.ruby, string.quoted.double.interpolated.ruby",
+    "settings": {
+      "foreground": "#032F62"
+    }
+  },
+  {
+    "name": "Ruby 字符串插值",
+    "scope": "meta.embedded.line.ruby, punctuation.section.embedded.begin.ruby, punctuation.section.embedded.end.ruby",
+    "settings": {
+      "foreground": "#B1BA81"
+    }
+  },
+  {
+    "name": "Ruby 函数调用",
+    "scope": "entity.name.function.ruby, support.function.ruby",
+    "settings": {
+      "foreground": "#6F42C1"
+    }
+  },
+  {
+    "name": "Ruby 方法参数",
+    "scope": "variable.parameter.ruby",
+    "settings": {
+      "foreground": "#E16227"
+    }
+  },
+  {
+    "name": "Ruby 普通变量",
+    "scope": "variable.other.ruby",
+    "settings": {
+      "foreground": "#24292E"
+    }
+  },
+  {
+    "name": "Ruby self",
+    "scope": "variable.language.self.ruby",
+    "settings": {
+      "foreground": "#D73A49",
+      "fontStyle": "italic"
+    }
+  },
+  {
+    "name": "Ruby 块参数",
+    "scope": "variable.parameter.block.ruby",
+    "settings": {
+      "foreground": "#E16227"
+    }
+  },
+  {
+    "name": "Ruby 数字",
+    "scope": "constant.numeric.ruby",
+    "settings": {
+      "foreground": "#569CD6"
+    }
+  },
+  {
+    "name": "Ruby 操作符",
+    "scope": "keyword.operator.assignment.ruby, keyword.operator.arithmetic.ruby, keyword.operator.comparison.ruby, keyword.operator.logical.ruby",
+    "settings": {
+      "foreground": "#B31D28"
+    }
+  },
+  {
+    "name": "Ruby 正则表达式",
+    "scope": "string.regexp.ruby",
+    "settings": {
+      "foreground": "#CB7074"
+    }
+  },
+  {
+    "name": "Ruby Here Document",
+    "scope": "string.unquoted.heredoc.ruby",
+    "settings": {
+      "foreground": "#032F62"
+    }
+  }
+]
