@@ -3,7 +3,7 @@
     "name": "PowerShell 函数和属性",
     "scope": "entity.name.function.powershell, support.function.attribute.powershell, support.function.powershell",
     "settings": {
-      "foreground": "#ffbac2"
+      "foreground": "#FFD1EA"
     }
   },
   {

@@ -17,7 +17,7 @@
     "name": "C# 方法调用",
     "scope": "entity.name.function.cs, meta.method-call.cs",
     "settings": {
-      "foreground": "#ffbac2"
+      "foreground": "#FFD1EA"
     }
   },
   {

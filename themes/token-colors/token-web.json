@@ -52,7 +52,7 @@
     "name": "CSS 伪类和伪元素",
     "scope": "entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css",
     "settings": {
-      "foreground": "#ffbac2"
+      "foreground": "#FFD1EA"
     }
   },
   {
