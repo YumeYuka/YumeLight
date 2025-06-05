@@ -35,8 +35,8 @@
     }
   },
   {
-    "name": "FVV 大括号",
-    "scope": "punctuation.definition.block.fvv, punctuation.section.block.begin.fvv, punctuation.section.block.end.fvv",
+    "name": "FVV 花括号",
+    "scope": "punctuation.definition.dictionary.fvv, punctuation.definition.dictionary.begin.fvv, punctuation.definition.dictionary.end.fvv",
     "settings": {
       "foreground": "#7A7A7A"
     }
@@ -50,28 +50,14 @@
   },
   {
     "name": "FVV 分隔符",
-    "scope": "punctuation.separator.fvv, meta.separator.fvv",
+    "scope": "punctuation.separator.fvv, punctuation.separator.array.fvv, punctuation.terminator.statement.fvv",
     "settings": {
       "foreground": "#7A7A7A"
     }
   },
   {
-    "name": "FVV 对象属性访问",
-    "scope": "punctuation.accessor.fvv, meta.structure.dictionary.fvv",
-    "settings": {
-      "foreground": "#7A7A7A"
-    }
-  },
-  {
-    "name": "FVV 路径字符串",
-    "scope": "string.fvv.path, string.quoted.double.fvv.path",
-    "settings": {
-      "foreground": "#0550AE"
-    }
-  },
-  {
-    "name": "FVV 路径中的变量占位符",
-    "scope": "constant.character.escape.fvv, variable.parameter.fvv, meta.interpolation.fvv",
+    "name": "FVV 转义符",
+    "scope": "constant.character.escape.fvv",
     "settings": {
       "foreground": "#6F42C1"
     }
@@ -99,31 +85,17 @@
     }
   },
   {
-    "name": "FVV 数组元素",
+    "name": "FVV 数组",
     "scope": "meta.structure.array.fvv",
     "settings": {
       "foreground": "#24292E"
     }
   },
   {
-    "name": "FVV [name] 动态名称变量",
-    "scope": "variable.other.readwrite.fvv, variable.parameter.fvv.dynamic",
+    "name": "FVV 对象",
+    "scope": "meta.structure.dictionary.fvv",
     "settings": {
-      "foreground": "#E36209"
-    }
-  },
-  {
-    "name": "FVV 时间格式字符串",
-    "scope": "constant.other.time.fvv, constant.other.date.fvv",
-    "settings": {
-      "foreground": "#6F42C1"
-    }
-  },
-  {
-    "name": "FVV 路径通配符",
-    "scope": "constant.other.wildcard.fvv",
-    "settings": {
-      "foreground": "#8512a0"
+      "foreground": "#24292E"
     }
   }
 ]
