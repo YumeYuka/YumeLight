@@ -1,34 +1,29 @@
 [
   {
-    "name": "Rust 关键字",
     "scope": "keyword.control.rust, storage.type.rust, storage.modifier.rust, keyword.other.rust",
     "settings": {
       "foreground": "#D73A49"
     }
   },
   {
-    "name": "Rust 类型",
     "scope": "entity.name.type.rust, storage.type.core.rust",
     "settings": {
       "foreground": "#00b1b1"
     }
   },
   {
-    "name": "Rust trait 和接口",
     "scope": "entity.name.type.trait.rust, storage.type.trait.rust",
     "settings": {
       "foreground": "#6F42C1"
     }
   },
   {
-    "name": "Rust 宏",
     "scope": "entity.name.function.macro.rust, meta.macro.rust",
     "settings": {
       "foreground": "#CB7074"
     }
   },
   {
-    "name": "Rust 生命周期参数",
     "scope": "entity.name.lifetime.rust, punctuation.definition.lifetime.rust",
     "settings": {
       "foreground": "#B1BA81",
@@ -36,14 +31,12 @@
     }
   },
   {
-    "name": "Rust 特殊模块路径",
     "scope": "entity.name.namespace.rust, meta.path.rust",
     "settings": {
       "foreground": "#89B482"
     }
   },
   {
-    "name": "Rust self 参数",
     "scope": "variable.language.self.rust",
     "settings": {
       "foreground": "#D73A49",
@@ -51,28 +44,24 @@
     }
   },
   {
-    "name": "Rust 属性宏",
     "scope": "meta.attribute.rust",
     "settings": {
       "foreground": "#6F42C1"
     }
   },
   {
-    "name": "Rust 函数调用",
     "scope": "entity.name.function.rust, meta.function-call.rust",
     "settings": {
       "foreground": "#6F42C1"
     }
   },
   {
-    "name": "Rust 参数",
     "scope": "variable.parameter.rust",
     "settings": {
       "foreground": "#E16227"
     }
   },
   {
-    "name": "Rust 普通变量",
     "scope": "variable.other.rust",
     "settings": {
       "foreground": "#24292E"

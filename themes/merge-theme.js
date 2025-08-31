@@ -9,7 +9,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 基础路径
-const themePath = path.join(__dirname, 'my-theme-color-theme.json');
+const themePath = path.join(__dirname, 'color-theme.json');
 const tokenDir = path.join(__dirname, 'token-colors');
 const tokenFiles = fs.readdirSync(tokenDir).filter(f => f.endsWith('.json'));
 

@@ -1,47 +1,47 @@
 {
-  "name": "Yume-light",
-  "displayName": "YumeLight",
-  "icon": "images/logo.jpg",
-  "description": "A blend of white and pink theme.",
-  "publisher": "YumeYuka",
-  "version": "1.0.4",
-  "engines": {
-    "vscode": "^1.43.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "Yume",
-    "light",
-    "pink",
-    "color",
-    "theme",
-    "php",
-    "swift",
-    "ruby",
-    "shell",
-    "fvv"
-  ],
-  "scripts": {
-    "dev": "node themes/merge-theme.js",
-    "build": "node themes/merge-theme.js && vsce package",
-    "publish": "vsce publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/YumeYuka/YumeLight"
-  },
-  "bugs": {
-    "url": "https://github.com/YumeYuka/YumeLight/issues"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Yume Light",
-        "uiTheme": "vs",
-        "path": "./themes/my-theme-color-theme.json"
-      }
-    ]
-  }
+	"name": "Yume-light",
+	"displayName": "YumeLight",
+	"icon": "images/logo.jpg",
+	"description": "A blend of white and pink theme.",
+	"publisher": "YumeYuka",
+	"version": "1.0.5",
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Yume",
+		"light",
+		"pink",
+		"color",
+		"theme",
+		"php",
+		"swift",
+		"ruby",
+		"shell",
+		"fvv"
+	],
+	"scripts": {
+		"dev": "node themes/merge-theme.js",
+		"build": "node themes/merge-theme.js && vsce package",
+		"publish": "vsce publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/YumeYuka/YumeLight-vscode-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/YumeYuka/YumeLight-vscode-theme/issues"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Yume Light",
+				"uiTheme": "vs",
+				"path": "./themes/my-theme-color-theme.json"
+			}
+		]
+	}
 }

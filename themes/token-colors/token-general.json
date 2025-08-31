@@ -14,7 +14,7 @@
   {
     "scope": "support.module, support.node, support.other.module, support.type.object.module, entity.name.type.module, entity.name.type.class.module, keyword.control.module",
     "settings": {
-      "foreground": "#89B482"
+      "foreground": "#D73A49"
     }
   },
   {
