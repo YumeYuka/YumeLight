@@ -40,7 +40,7 @@
 			{
 				"label": "Yume Light",
 				"uiTheme": "vs",
-				"path": "./themes/my-theme-color-theme.json"
+				"path": "./themes/color-theme.json"
 			}
 		]
 	}
